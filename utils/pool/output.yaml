@@ -23,13 +23,23 @@ proxies:
   udp: true
 - name: "\U0001F1F8\U0001F1EC SG 4 SSS"
   type: ss
-  server: 18.143.187.111
+  server: 13.215.177.64
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
 - name: "\U0001F1FA\U0001F1F8 US 5 VMS"
   type: vmess
-  server: quranweb29.xyz
+  server: 156.225.67.82
+  port: 56926
+  cipher: auto
+  uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  type: vmess
+  server: cf-topspeed.uk
   port: 443
   cipher: auto
   uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
@@ -37,71 +47,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F8 US 6 TJN"
-  type: trojan
-  server: e.mg.us.cat77.cloud
-  port: 2255
-  udp: true
-  password: cd27884b-c5af-34ec-b75f-8248077818fe
-  skip-cert-verify: true
-  network: tcp
 - name: "\U0001F1FA\U0001F1F8 US 7 VMS"
-  type: vmess
-  server: 156.225.67.82
-  port: 56926
-  cipher: auto
-  uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
-  type: vmess
-  server: cf-topspeed.uk
-  port: 443
-  cipher: auto
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
-- name: "\U0001F1FA\U0001F1F8 US 9 VMS"
-  type: vmess
-  server: holyquran1.store
-  port: 443
-  cipher: auto
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
-- name: "\U0001F1F8\U0001F1EC SG 10 SSS"
-  type: ss
-  server: 13.215.177.64
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
-  type: vmess
-  server: 156.225.67.82
-  port: 56926
-  cipher: auto
-  uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-  alterId: 64
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 12 VMS"
-  type: vmess
-  server: cf-topspeed.uk
-  port: 443
-  cipher: auto
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
-- name: "\U0001F1FA\U0001F1F8 US 13 VMS"
   type: vmess
   server: quranweb17.xyz
   port: 443
@@ -111,7 +57,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F8 US 14 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
   type: vmess
   server: quranweb12.xyz
   port: 443
@@ -121,7 +67,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F3 UN 15 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
   type: vmess
   server: quran-audio5.xyz
   port: 443
@@ -131,7 +77,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F3 UN 16 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 10 VMS"
   type: vmess
   server: 190.93.245.1
   port: 443
@@ -145,7 +91,7 @@ proxies:
     path: /5QNROSRV
     headers:
       host: clash1.ssr-free2.xyz
-- name: "\U0001F1E8\U0001F1FE CY 17 VMS"
+- name: "\U0001F1E8\U0001F1FE CY 11 VMS"
   type: vmess
   server: 203.24.108.2
   port: 443
@@ -159,7 +105,7 @@ proxies:
     path: /A2DJOPFT
     headers:
       host: 77.v2ray1.xyz
-- name: "\U0001F1E6\U0001F1F2 AM 18 VMS"
+- name: "\U0001F1E6\U0001F1F2 AM 12 VMS"
   type: vmess
   server: 185.162.228.2
   port: 443
@@ -173,7 +119,7 @@ proxies:
     path: /A2DJOPFT
     headers:
       host: 77.v2ray1.xyz
-- name: "\U0001F1E8\U0001F1F3 CN 19 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 13 VMS"
   type: vmess
   server: data-hk-v1.shwjfkw.cn
   port: 50207
@@ -185,6 +131,60 @@ proxies:
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
+- name: "\U0001F1F8\U0001F1EC SG 14 SSS"
+  type: ss
+  server: 18.143.187.111
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F3 UN 15 VMS"
+  type: vmess
+  server: quranweb29.xyz
+  port: 443
+  cipher: auto
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+- name: "\U0001F1FA\U0001F1F8 US 16 TJN"
+  type: trojan
+  server: e.mg.us.cat77.cloud
+  port: 2255
+  udp: true
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 17 VMS"
+  type: vmess
+  server: 156.225.67.82
+  port: 56926
+  cipher: auto
+  uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  type: vmess
+  server: cf-topspeed.uk
+  port: 443
+  cipher: auto
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+- name: "\U0001F1FA\U0001F1F8 US 19 VMS"
+  type: vmess
+  server: holyquran1.store
+  port: 443
+  cipher: auto
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
 proxy-groups:
 - name: automatic
   type: url-test
@@ -194,20 +194,20 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
   - "\U0001F1F8\U0001F1EC SG 4 SSS"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
-  - "\U0001F1FA\U0001F1F8 US 6 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1FA\U0001F1F8 US 9 VMS"
-  - "\U0001F1F8\U0001F1EC SG 10 SSS"
-  - "\U0001F1FA\U0001F1F8 US 11 VMS"
-  - "\U0001F1FA\U0001F1F8 US 12 VMS"
-  - "\U0001F1FA\U0001F1F8 US 13 VMS"
-  - "\U0001F1FA\U0001F1F8 US 14 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
+  - "\U0001F1E8\U0001F1FE CY 11 VMS"
+  - "\U0001F1E6\U0001F1F2 AM 12 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 13 VMS"
+  - "\U0001F1F8\U0001F1EC SG 14 SSS"
   - "\U0001F1FA\U0001F1F3 UN 15 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 16 VMS"
-  - "\U0001F1E8\U0001F1FE CY 17 VMS"
-  - "\U0001F1E6\U0001F1F2 AM 18 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 19 VMS"
+  - "\U0001F1FA\U0001F1F8 US 16 TJN"
+  - "\U0001F1FA\U0001F1F8 US 17 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  - "\U0001F1FA\U0001F1F8 US 19 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -219,19 +219,19 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
   - "\U0001F1F8\U0001F1EC SG 4 SSS"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
-  - "\U0001F1FA\U0001F1F8 US 6 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1FA\U0001F1F8 US 9 VMS"
-  - "\U0001F1F8\U0001F1EC SG 10 SSS"
-  - "\U0001F1FA\U0001F1F8 US 11 VMS"
-  - "\U0001F1FA\U0001F1F8 US 12 VMS"
-  - "\U0001F1FA\U0001F1F8 US 13 VMS"
-  - "\U0001F1FA\U0001F1F8 US 14 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
+  - "\U0001F1E8\U0001F1FE CY 11 VMS"
+  - "\U0001F1E6\U0001F1F2 AM 12 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 13 VMS"
+  - "\U0001F1F8\U0001F1EC SG 14 SSS"
   - "\U0001F1FA\U0001F1F3 UN 15 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 16 VMS"
-  - "\U0001F1E8\U0001F1FE CY 17 VMS"
-  - "\U0001F1E6\U0001F1F2 AM 18 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 19 VMS"
+  - "\U0001F1FA\U0001F1F8 US 16 TJN"
+  - "\U0001F1FA\U0001F1F8 US 17 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  - "\U0001F1FA\U0001F1F8 US 19 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
