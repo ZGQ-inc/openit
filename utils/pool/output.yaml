@@ -21,6 +21,140 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
+  server: 192.203.230.65
+  port: 443
+  cipher: auto
+  uuid: f4b8a569-60f0-444a-b2d9-bdaa46491a08
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /meizhiyuan/hkhgc?ed=2048
+    headers:
+      host: hkhgc.guolicheng.cyou
+- name: "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  type: vmess
+  server: 183.232.204.103
+  port: 38080
+  cipher: auto
+  uuid: f4b8a569-60f0-444a-b2d9-bdaa46491a08
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /meizhiyuan/hinet
+    headers:
+      host: download.windowsupdatea.com
+- name: "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  type: trojan
+  server: 183.232.204.103
+  port: 30120
+  udp: true
+  password: f4b8a569-60f0-444a-b2d9-bdaa46491a08
+  sni: mzy.windowsupdate1.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 7 TJN"
+  type: trojan
+  server: 183.232.204.103
+  port: 30060
+  udp: true
+  password: f4b8a569-60f0-444a-b2d9-bdaa46491a08
+  sni: mzy.windowsupdate1.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  type: vmess
+  server: sg.herofree66.tk
+  port: 443
+  cipher: auto
+  uuid: 5e3d4757-1395-4843-d498-bf7317470085
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tg@herhero6
+- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  type: vmess
+  server: 104.18.82.47
+  port: 443
+  cipher: auto
+  uuid: 5e3d4757-1395-4843-d498-bf7317470085
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tg@herhero6
+    headers:
+      host: sg.herofree66.tk
+- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+  type: vmess
+  server: us1-66y.bilicapr.cn
+  port: 443
+  cipher: auto
+  uuid: 9a641e61-1bdf-4407-bc92-da95f28fac25
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: us1-66y.bilicapr.cn
+- name: "\U0001F1EF\U0001F1F5 JP 11 VMS"
+  type: vmess
+  server: 38.47.96.219
+  port: 39487
+  cipher: auto
+  uuid: 90b53f9f-3e90-4dc0-a508-2d6f1f9a6254
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jp1/getData
+    headers:
+      host: jp1.linkeden.co
+- name: "\U0001F1FA\U0001F1F8 US 12 VMS"
+  type: vmess
+  server: 38.47.110.212
+  port: 25107
+  cipher: auto
+  uuid: f5b19092-44aa-408f-8148-f11b9ddc04d8
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jp2/getData
+    headers:
+      host: jp2.linkeden.co
+- name: "\U0001F1F0\U0001F1F7 KR 13 VMS"
+  type: vmess
+  server: 210.87.202.3
+  port: 25271
+  cipher: auto
+  uuid: a23f272d-2186-4d68-8f2a-2d8847c603be
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /kor1/getData
+    headers:
+      host: kor1.linkeden.co
+- name: "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  type: ss
+  server: ten-hk-88fg7f.tianziyu.com
+  port: 19875
+  password: f581206d-974c-4721-87f1-e9674dac52c3
+  cipher: aes-256-gcm
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +162,17 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 7 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 11 VMS"
+  - "\U0001F1FA\U0001F1F8 US 12 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 13 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +182,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 7 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 11 VMS"
+  - "\U0001F1FA\U0001F1F8 US 12 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 13 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
