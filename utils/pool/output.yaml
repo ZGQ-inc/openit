@@ -100,7 +100,32 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1E6\U0001F1F2 AM 11 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+  server: 142.0.139.55
+  port: 57072
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  server: new3.hucloud-dns.xyz
+  port: 443
+  type: vmess
+  uuid: 1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: new3.hucloud-dns.xyz
+  udp: true
+- name: "\U0001F1E6\U0001F1F2 AM 13 VMS"
   server: 185.162.228.1
   port: 443
   type: vmess
@@ -115,7 +140,7 @@ proxies:
     headers:
       Host: 154.v2ray3.xyz
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 12 VMS"
+- name: "\U0001F1EC\U0001F1E7 GB 14 VMS"
   server: free-eu2.wvvvv.eu.org
   port: 80
   type: vmess
@@ -130,37 +155,12 @@ proxies:
     headers:
       Host: free-eu2.wvvvv.eu.org
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 13 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 15 TJN"
   server: 204.216.214.102
   port: 44386
   type: trojan
   password: C931CWacy8
   skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 14 VMS"
-  server: 142.0.139.55
-  port: 57072
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 15 VMS"
-  server: new3.hucloud-dns.xyz
-  port: 443
-  type: vmess
-  uuid: 1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: new3.hucloud-dns.xyz
   udp: true
 - name: "\U0001F1F9\U0001F1FC TW 16 TJN"
   type: trojan
@@ -386,7 +386,7 @@ proxies:
   port: 11023
   password: ll668668@
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 40 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 40 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 443
@@ -1581,11 +1581,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F8 US 9 SSS"
   - "\U0001F1F8\U0001F1EC SG 10 SSS"
-  - "\U0001F1E6\U0001F1F2 AM 11 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 12 VMS"
-  - "\U0001F1FA\U0001F1F8 US 13 TJN"
-  - "\U0001F1FA\U0001F1F8 US 14 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 15 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  - "\U0001F1E6\U0001F1F2 AM 13 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 14 VMS"
+  - "\U0001F1FA\U0001F1F8 US 15 TJN"
   - "\U0001F1F9\U0001F1FC TW 16 TJN"
   - "\U0001F1FA\U0001F1F8 US 17 VMS"
   - "\U0001F1E8\U0001F1F3 CN 18 VMS"
@@ -1610,7 +1610,7 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR 37 SSS"
   - "\U0001F1FA\U0001F1F8 US 38 SSS"
   - "\U0001F1E8\U0001F1F3 CN 39 SSS"
-  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 40 VMS"
   - "\U0001F1FB\U0001F1F3 VN 41 TJN"
   - "\U0001F1FA\U0001F1F8 US 42 VMS"
   - "\U0001F1E8\U0001F1F3 CN 43 VMS"
@@ -1716,11 +1716,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F8 US 9 SSS"
   - "\U0001F1F8\U0001F1EC SG 10 SSS"
-  - "\U0001F1E6\U0001F1F2 AM 11 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 12 VMS"
-  - "\U0001F1FA\U0001F1F8 US 13 TJN"
-  - "\U0001F1FA\U0001F1F8 US 14 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 15 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  - "\U0001F1E6\U0001F1F2 AM 13 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 14 VMS"
+  - "\U0001F1FA\U0001F1F8 US 15 TJN"
   - "\U0001F1F9\U0001F1FC TW 16 TJN"
   - "\U0001F1FA\U0001F1F8 US 17 VMS"
   - "\U0001F1E8\U0001F1F3 CN 18 VMS"
@@ -1745,7 +1745,7 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR 37 SSS"
   - "\U0001F1FA\U0001F1F8 US 38 SSS"
   - "\U0001F1E8\U0001F1F3 CN 39 SSS"
-  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 40 VMS"
   - "\U0001F1FB\U0001F1F3 VN 41 TJN"
   - "\U0001F1FA\U0001F1F8 US 42 VMS"
   - "\U0001F1E8\U0001F1F3 CN 43 VMS"
