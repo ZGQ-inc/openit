@@ -152,7 +152,7 @@ proxies:
   port: 8118
   password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F3 UN 18 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 18 VMS"
   type: vmess
   server: 4bb4ced4.8200860.xyz
   port: 2096
@@ -422,6 +422,90 @@ proxies:
   port: 6679
   password: TEzjfAYq2IjtuoS
   cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F8 US 50 VMS"
+  type: vmess
+  server: 172.67.250.239
+  port: 80
+  cipher: auto
+  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: dp2.scproxy.top
+- name: "\U0001F1FA\U0001F1F8 US 51 TJN"
+  type: trojan
+  server: rnrn3g.555456.xyz
+  port: 443
+  udp: true
+  password: 17c6c64e-eb3c-44ae-98f8-d469713f91f1
+  sni: rnrn3g.555456.xyz
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 52 VMS"
+  type: vmess
+  server: vuk1.0bad.com
+  port: 443
+  cipher: auto
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+- name: "\U0001F1FA\U0001F1F8 US 53 VMS"
+  type: vmess
+  server: 172.67.86.214
+  port: 80
+  cipher: auto
+  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: lv2.sharecentrepro.org
+- name: "\U0001F1EF\U0001F1F5 JP 54 SSS"
+  type: ss
+  server: 85.208.108.94
+  port: 6379
+  password: zDNVedRFPQexG9v
+  cipher: aes-256-gcm
+- name: "\U0001F1EF\U0001F1F5 JP 55 SSS"
+  type: ss
+  server: 85.208.108.94
+  port: 5004
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F8 US 56 VMS"
+  type: vmess
+  server: 38.40.219.187
+  port: 50462
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: ''
+- name: "\U0001F1E8\U0001F1F3 CN 57 SSR"
+  type: ssr
+  server: usstand2.eucdurl.me
+  port: 562
+  password: mblank1port
+  cipher: chacha20-ietf
+  obfs: plain
+  protocol: auth_aes128_md5
+  protocol-param: 48566:LLLiuiuiu787878
+- name: "\U0001F1EF\U0001F1F5 JP 58 SSS"
+  type: ss
+  server: 85.208.108.94
+  port: 4444
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
 proxy-groups:
 - name: automatic
   type: url-test
@@ -443,7 +527,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 15 VMS"
   - "\U0001F1FA\U0001F1F8 US 16 VMS"
   - "\U0001F1EF\U0001F1F5 JP 17 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
   - "\U0001F1FA\U0001F1F8 US 19 VMS"
   - "\U0001F1EF\U0001F1F5 JP 20 SSS"
   - "\U0001F1EF\U0001F1F5 JP 21 SSS"
@@ -475,6 +559,15 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
   - "\U0001F1FA\U0001F1F8 US 48 VMS"
   - "\U0001F1EF\U0001F1F5 JP 49 SSS"
+  - "\U0001F1FA\U0001F1F8 US 50 VMS"
+  - "\U0001F1FA\U0001F1F8 US 51 TJN"
+  - "\U0001F1FA\U0001F1F8 US 52 VMS"
+  - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 54 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 55 SSS"
+  - "\U0001F1FA\U0001F1F8 US 56 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 57 SSR"
+  - "\U0001F1EF\U0001F1F5 JP 58 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -498,7 +591,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 15 VMS"
   - "\U0001F1FA\U0001F1F8 US 16 VMS"
   - "\U0001F1EF\U0001F1F5 JP 17 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
   - "\U0001F1FA\U0001F1F8 US 19 VMS"
   - "\U0001F1EF\U0001F1F5 JP 20 SSS"
   - "\U0001F1EF\U0001F1F5 JP 21 SSS"
@@ -530,5 +623,14 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
   - "\U0001F1FA\U0001F1F8 US 48 VMS"
   - "\U0001F1EF\U0001F1F5 JP 49 SSS"
+  - "\U0001F1FA\U0001F1F8 US 50 VMS"
+  - "\U0001F1FA\U0001F1F8 US 51 TJN"
+  - "\U0001F1FA\U0001F1F8 US 52 VMS"
+  - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 54 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 55 SSS"
+  - "\U0001F1FA\U0001F1F8 US 56 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 57 SSR"
+  - "\U0001F1EF\U0001F1F5 JP 58 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
