@@ -27,7 +27,16 @@ proxies:
   port: 993
   username: tor20b
   password: p1C71H5mGd
-- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1EE FI 5 HTT"
+  type: http
+  server: fn.secureconnect.me
+  port: 993
+  username: tor20b
+  password: p1C71H5mGd
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
   type: vmess
   server: 172.67.250.239
   port: 80
@@ -41,7 +50,7 @@ proxies:
     path: /shirker
     headers:
       host: dp2.scproxy.top
-- name: "\U0001F1FA\U0001F1F8 US 6 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 7 TJN"
   type: trojan
   server: rnrn3g.555456.xyz
   port: 443
@@ -50,7 +59,7 @@ proxies:
   sni: rnrn3g.555456.xyz
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
   type: vmess
   server: vuk1.0bad.com
   port: 443
@@ -60,7 +69,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 9 VMS"
   type: vmess
   server: 172.67.86.214
   port: 80
@@ -74,19 +83,19 @@ proxies:
     path: /shirker
     headers:
       host: lv2.sharecentrepro.org
-- name: "\U0001F1EF\U0001F1F5 JP 9 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 10 SSS"
   type: ss
   server: 85.208.108.94
   port: 6379
   password: zDNVedRFPQexG9v
   cipher: aes-256-gcm
-- name: "\U0001F1EF\U0001F1F5 JP 10 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 11 SSS"
   type: ss
   server: 85.208.108.94
   port: 5004
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 12 VMS"
   type: vmess
   server: 38.40.219.187
   port: 50462
@@ -96,7 +105,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ''
-- name: "\U0001F1FA\U0001F1F3 UN 12 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 13 VMS"
   type: vmess
   server: fr2.cachexy.ga
   port: 80
@@ -110,7 +119,7 @@ proxies:
     path: /g5D0hFMY/
     headers:
       host: fr2.cachexy.ga
-- name: "\U0001F1E8\U0001F1F3 CN 13 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 14 SSR"
   type: ssr
   server: usstand2.eucdurl.me
   port: 562
@@ -119,21 +128,12 @@ proxies:
   obfs: plain
   protocol: auth_aes128_md5
   protocol-param: 48566:LLLiuiuiu787878
-- name: "\U0001F1EF\U0001F1F5 JP 14 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 15 SSS"
   type: ss
   server: 85.208.108.94
   port: 4444
   password: pKEW8JPByTVTLtM
   cipher: aes-256-gcm
-- name: "\U0001F1EB\U0001F1EE FI 15 HTT"
-  type: http
-  server: fn.secureconnect.me
-  port: 993
-  username: tor20b
-  password: p1C71H5mGd
-  tls: true
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 16 VMS"
   type: vmess
   server: yes.iamagoodman.net
@@ -251,7 +251,7 @@ proxies:
   port: 8118
   password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 29 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 29 VMS"
   type: vmess
   server: 4bb4ced4.8200860.xyz
   port: 2096
@@ -529,17 +529,17 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
   - "\U0001F1EB\U0001F1EE FI 4 HTT"
-  - "\U0001F1FA\U0001F1F8 US 5 VMS"
-  - "\U0001F1FA\U0001F1F8 US 6 TJN"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1EB\U0001F1EE FI 5 HTT"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 9 SSS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
   - "\U0001F1EF\U0001F1F5 JP 10 SSS"
-  - "\U0001F1FA\U0001F1F8 US 11 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 13 SSR"
-  - "\U0001F1EF\U0001F1F5 JP 14 SSS"
-  - "\U0001F1EB\U0001F1EE FI 15 HTT"
+  - "\U0001F1EF\U0001F1F5 JP 11 SSS"
+  - "\U0001F1FA\U0001F1F8 US 12 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSR"
+  - "\U0001F1EF\U0001F1F5 JP 15 SSS"
   - "\U0001F1E8\U0001F1F3 CN 16 VMS"
   - "\U0001F1E8\U0001F1F3 CN 17 VMS"
   - "\U0001F1FA\U0001F1F8 US 18 VMS"
@@ -553,7 +553,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1EF\U0001F1F5 JP 28 SSS"
-  - "\U0001F1FA\U0001F1F8 US 29 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 29 VMS"
   - "\U0001F1FA\U0001F1F8 US 30 VMS"
   - "\U0001F1EF\U0001F1F5 JP 31 SSS"
   - "\U0001F1EF\U0001F1F5 JP 32 SSS"
@@ -595,17 +595,17 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
   - "\U0001F1EB\U0001F1EE FI 4 HTT"
-  - "\U0001F1FA\U0001F1F8 US 5 VMS"
-  - "\U0001F1FA\U0001F1F8 US 6 TJN"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1EB\U0001F1EE FI 5 HTT"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 9 SSS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
   - "\U0001F1EF\U0001F1F5 JP 10 SSS"
-  - "\U0001F1FA\U0001F1F8 US 11 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 13 SSR"
-  - "\U0001F1EF\U0001F1F5 JP 14 SSS"
-  - "\U0001F1EB\U0001F1EE FI 15 HTT"
+  - "\U0001F1EF\U0001F1F5 JP 11 SSS"
+  - "\U0001F1FA\U0001F1F8 US 12 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSR"
+  - "\U0001F1EF\U0001F1F5 JP 15 SSS"
   - "\U0001F1E8\U0001F1F3 CN 16 VMS"
   - "\U0001F1E8\U0001F1F3 CN 17 VMS"
   - "\U0001F1FA\U0001F1F8 US 18 VMS"
@@ -619,7 +619,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1EF\U0001F1F5 JP 28 SSS"
-  - "\U0001F1FA\U0001F1F8 US 29 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 29 VMS"
   - "\U0001F1FA\U0001F1F8 US 30 VMS"
   - "\U0001F1EF\U0001F1F5 JP 31 SSS"
   - "\U0001F1EF\U0001F1F5 JP 32 SSS"
