@@ -21,17 +21,7 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 4 SK5"
-  type: socks5
-  server: 45.33.34.126
-  port: 1080
-  username: "tg\u7FA4-@herhero6"
-- name: "\U0001F1FA\U0001F1F8 US 5 SK5"
-  type: socks5
-  server: 45.33.34.126
-  port: 80
-  username: "\u9632\u5C01socks5-\u8054\u7CFB@heroku666"
-- name: "\U0001F1F8\U0001F1EC SG 6 VMS"
+- name: "\U0001F1F8\U0001F1EC SG 4 VMS"
   type: vmess
   server: 43.134.161.69
   port: 24695
@@ -45,7 +35,7 @@ proxies:
     path: /sgx/getData
     headers:
       host: sgx.verichains.co
-- name: "\U0001F1F8\U0001F1EC SG 7 VMS"
+- name: "\U0001F1F8\U0001F1EC SG 5 VMS"
   type: vmess
   server: 43.159.53.33
   port: 28568
@@ -59,7 +49,7 @@ proxies:
     path: /sg8/getData
     headers:
       host: sg8.verichains.co
-- name: "\U0001F1F8\U0001F1EC SG 8 VMS"
+- name: "\U0001F1F8\U0001F1EC SG 6 VMS"
   type: vmess
   server: 43.153.222.128
   port: 44343
@@ -73,7 +63,7 @@ proxies:
     path: /sg9/getData
     headers:
       host: sg9.verichains.co
-- name: "\U0001F1F8\U0001F1EC SG 9 VMS"
+- name: "\U0001F1F8\U0001F1EC SG 7 VMS"
   type: vmess
   server: 43.134.227.81
   port: 30966
@@ -87,7 +77,7 @@ proxies:
     path: /sg6/getData
     headers:
       host: sg6.verichains.co
-- name: "\U0001F1F8\U0001F1EC SG 10 VMS"
+- name: "\U0001F1F8\U0001F1EC SG 8 VMS"
   type: vmess
   server: 43.156.58.10
   port: 22859
@@ -101,6 +91,16 @@ proxies:
     path: /sg4/getData
     headers:
       host: sg4.nb123.info
+- name: "\U0001F1FA\U0001F1F8 US 9 SK5"
+  type: socks5
+  server: 45.33.34.126
+  port: 1080
+  username: "tg\u7FA4-@herhero6"
+- name: "\U0001F1FA\U0001F1F8 US 10 SK5"
+  type: socks5
+  server: 45.33.34.126
+  port: 80
+  username: "\u9632\u5C01socks5-\u8054\u7CFB@heroku666"
 proxy-groups:
 - name: automatic
   type: url-test
@@ -108,13 +108,13 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 SK5"
-  - "\U0001F1FA\U0001F1F8 US 5 SK5"
+  - "\U0001F1F8\U0001F1EC SG 4 VMS"
+  - "\U0001F1F8\U0001F1EC SG 5 VMS"
   - "\U0001F1F8\U0001F1EC SG 6 VMS"
   - "\U0001F1F8\U0001F1EC SG 7 VMS"
   - "\U0001F1F8\U0001F1EC SG 8 VMS"
-  - "\U0001F1F8\U0001F1EC SG 9 VMS"
-  - "\U0001F1F8\U0001F1EC SG 10 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 SK5"
+  - "\U0001F1FA\U0001F1F8 US 10 SK5"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -124,12 +124,12 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 SK5"
-  - "\U0001F1FA\U0001F1F8 US 5 SK5"
+  - "\U0001F1F8\U0001F1EC SG 4 VMS"
+  - "\U0001F1F8\U0001F1EC SG 5 VMS"
   - "\U0001F1F8\U0001F1EC SG 6 VMS"
   - "\U0001F1F8\U0001F1EC SG 7 VMS"
   - "\U0001F1F8\U0001F1EC SG 8 VMS"
-  - "\U0001F1F8\U0001F1EC SG 9 VMS"
-  - "\U0001F1F8\U0001F1EC SG 10 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 SK5"
+  - "\U0001F1FA\U0001F1F8 US 10 SK5"
 rules:
 - "MATCH,\U0001F310 Proxy"
