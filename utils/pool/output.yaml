@@ -21,6 +21,14 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 4 TJN"
+  type: trojan
+  server: 163.123.192.154
+  port: 443
+  udp: true
+  password: 997a9caa-5950-476f-8614-462fb2e0ed18
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +36,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +46,6 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
