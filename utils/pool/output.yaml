@@ -545,7 +545,7 @@ proxies:
   password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 47 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 47 VMS"
   type: vmess
   server: yd1.01dj.sbs
   port: 443
@@ -1121,6 +1121,104 @@ proxies:
     path: /shirker
     headers:
       host: ca.ilovescp.com
+- name: "\U0001F1E8\U0001F1E6 CA 98 VMS"
+  type: vmess
+  server: 45.93.31.230
+  port: 25237
+  cipher: auto
+  uuid: b47eb4cf-6f11-4345-b921-c2e54d2af5af
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /kor1/getData
+    headers:
+      host: kor1.nb123.info
+- name: "\U0001F1E8\U0001F1F3 CN 99 VMS"
+  type: vmess
+  server: m.lwvzmdu.cn
+  port: 16618
+  cipher: auto
+  uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: m.lwvzmdu.cn
+- name: "\U0001F1E8\U0001F1F3 CN 100 VMS"
+  type: vmess
+  server: 139.226.136.165
+  port: 26811
+  cipher: auto
+  uuid: 7c138cac-2ab8-4aec-9079-811e48478f21
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 101 VMS"
+  type: vmess
+  server: gzzz.8bqyato.ml
+  port: 11316
+  cipher: auto
+  uuid: 7819de3a-63a4-4673-bba5-e5f09cdf3937
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: gw.alicdn.com
+- name: "\U0001F1FA\U0001F1F8 US 102 VMS"
+  type: vmess
+  server: downloadvip.cfd
+  port: 443
+  cipher: auto
+  uuid: a250f5a3-4147-41e7-8b36-a40466bf76f0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jsjc/us1
+    headers:
+      host: us1.jsjc.sbs
+- name: "\U0001F1FA\U0001F1F8 US 103 VMS"
+  type: vmess
+  server: 45.86.11.231
+  port: 39182
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 104 VMS"
+  type: vmess
+  server: m.lwvzmdu.cn
+  port: 16618
+  cipher: auto
+  uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 105 VMS"
+  type: vmess
+  server: 108.186.116.174
+  port: 55005
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -1171,7 +1269,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 44 VMS"
   - "\U0001F1E8\U0001F1E6 CA 45 VMS"
   - "\U0001F1F8\U0001F1EC SG 46 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 47 VMS"
+  - "\U0001F1FA\U0001F1F8 US 47 VMS"
   - "\U0001F1FA\U0001F1F8 US 48 VMS"
   - "\U0001F1F0\U0001F1F7 KR 49 TJN"
   - "\U0001F1ED\U0001F1F0 HK 50 VMS"
@@ -1222,6 +1320,14 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 95 VMS"
   - "\U0001F1E8\U0001F1E6 CA 96 VMS"
   - "\U0001F1FA\U0001F1F3 UN 97 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 98 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 99 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 100 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 101 VMS"
+  - "\U0001F1FA\U0001F1F8 US 102 VMS"
+  - "\U0001F1FA\U0001F1F8 US 103 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 104 VMS"
+  - "\U0001F1FA\U0001F1F8 US 105 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1274,7 +1380,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 44 VMS"
   - "\U0001F1E8\U0001F1E6 CA 45 VMS"
   - "\U0001F1F8\U0001F1EC SG 46 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 47 VMS"
+  - "\U0001F1FA\U0001F1F8 US 47 VMS"
   - "\U0001F1FA\U0001F1F8 US 48 VMS"
   - "\U0001F1F0\U0001F1F7 KR 49 TJN"
   - "\U0001F1ED\U0001F1F0 HK 50 VMS"
@@ -1325,5 +1431,13 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 95 VMS"
   - "\U0001F1E8\U0001F1E6 CA 96 VMS"
   - "\U0001F1FA\U0001F1F3 UN 97 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 98 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 99 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 100 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 101 VMS"
+  - "\U0001F1FA\U0001F1F8 US 102 VMS"
+  - "\U0001F1FA\U0001F1F8 US 103 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 104 VMS"
+  - "\U0001F1FA\U0001F1F8 US 105 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
