@@ -21,7 +21,15 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
+- name: "\U0001F1EE\U0001F1F1 IL 4 TJN"
+  type: trojan
+  server: nl3.chuqiangtou.net
+  port: 4003
+  udp: true
+  password: TJCfE7Mx2YcA8kX8zg
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
   type: vmess
   server: cdncf.scyu.app
   port: 80
@@ -35,14 +43,6 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       host: ssrsub.v01.ssrsub.com
-- name: "\U0001F1EE\U0001F1F1 IL 5 TJN"
-  type: trojan
-  server: nl3.chuqiangtou.net
-  port: 4003
-  udp: true
-  password: TJCfE7Mx2YcA8kX8zg
-  skip-cert-verify: true
-  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -50,8 +50,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 5 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 4 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -61,7 +61,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
-  - "\U0001F1EE\U0001F1F1 IL 5 TJN"
+  - "\U0001F1EE\U0001F1F1 IL 4 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
