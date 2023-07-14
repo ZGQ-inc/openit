@@ -556,6 +556,56 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1EE\U0001F1F7 IR 54 VMS"
+  type: vmess
+  server: msifr.easytome.net
+  port: 54017
+  cipher: auto
+  uuid: 8d67887e-8ed7-48e1-c16b-2ec913dc36db
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F7 IR 55 VMS"
+  type: vmess
+  server: mside3.easytome.net
+  port: 24453
+  cipher: auto
+  uuid: d3468ca0-9442-499b-f64f-fdde57c72d83
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F7 IR 56 VMS"
+  type: vmess
+  server: mside2.easytome.net
+  port: 17913
+  cipher: auto
+  uuid: 240e2f96-0fb0-4e7b-ad18-edb86bfea5aa
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F7 IR 57 VMS"
+  type: vmess
+  server: msius2.easytome.net
+  port: 30345
+  cipher: auto
+  uuid: 956A3972-8C50-70A6-FF06-06863CD1AA8C
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F7 IR 58 VMS"
+  type: vmess
+  server: msiuki.easytome.net
+  port: 25272
+  cipher: auto
+  uuid: 0945303D-9D0A-0C96-FD93-F479C7AD607E
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -613,6 +663,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 51 VMS"
   - "\U0001F1FA\U0001F1F8 US 52 VMS"
   - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 54 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 55 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 56 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 57 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 58 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -672,5 +727,10 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 51 VMS"
   - "\U0001F1FA\U0001F1F8 US 52 VMS"
   - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 54 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 55 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 56 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 57 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 58 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
