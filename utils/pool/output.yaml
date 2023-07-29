@@ -582,6 +582,102 @@ proxies:
     path: /dongtaiwang.com
     headers:
       host: d.freeh1.xyz
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 54 VMS"
+  ws-opts:
+    path: /shirker
+    headers:
+      host: uk2.scproxy.top
+  server: 172.67.10.121
+  port: 80
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 55 VMS"
+  server: 23.234.198.83
+  port: 34888
+  uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6 CA 56 VMS"
+  ws-opts:
+    path: /
+  server: 23.26.239.163
+  port: 18420
+  uuid: 65578c09-f23e-49cc-abee-4ad2a1850f9a
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 57 VMS"
+  server: 23.225.211.21
+  port: 42941
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: trojan
+  name: "\U0001F1EB\U0001F1F7 FR 58 TJN"
+  server: 57.128.173.6
+  port: 443
+  password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d
+  udp: true
+  skip-cert-verify: true
+  sni: www.speedtest.net
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 59 VMS"
+  ws-opts:
+    path: /footers
+  server: 23.108.100.101
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 60 VMS"
+  server: 64.32.21.246
+  port: 44313
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 61 VMS"
+  ws-opts:
+    path: /hgcefomn
+    headers:
+      host: amszx.66666654.xyz
+  server: 172.64.194.234
+  port: 2095
+  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 62 VMS"
+  ws-opts:
+    path: /qwer01
+    headers:
+      host: ecc.vtcss.top
+  server: 172.67.163.143
+  port: 8880
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: ss
+  name: "\U0001F1F8\U0001F1EC SG 63 SSS"
+  server: 13.213.44.183
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 proxy-groups:
 - name: automatic
   type: url-test
@@ -639,6 +735,16 @@ proxy-groups:
   - "\U0001F1E6\U0001F1EB AF 51 SSS"
   - "\U0001F1ED\U0001F1F0 HK 52 VMS"
   - "\U0001F1E8\U0001F1E6 CA 53 VMS"
+  - "\U0001F1FA\U0001F1F8 US 54 VMS"
+  - "\U0001F1FA\U0001F1F8 US 55 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 56 VMS"
+  - "\U0001F1FA\U0001F1F8 US 57 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 58 TJN"
+  - "\U0001F1FA\U0001F1F8 US 59 VMS"
+  - "\U0001F1FA\U0001F1F8 US 60 VMS"
+  - "\U0001F1FA\U0001F1F8 US 61 VMS"
+  - "\U0001F1FA\U0001F1F8 US 62 VMS"
+  - "\U0001F1F8\U0001F1EC SG 63 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -698,5 +804,15 @@ proxy-groups:
   - "\U0001F1E6\U0001F1EB AF 51 SSS"
   - "\U0001F1ED\U0001F1F0 HK 52 VMS"
   - "\U0001F1E8\U0001F1E6 CA 53 VMS"
+  - "\U0001F1FA\U0001F1F8 US 54 VMS"
+  - "\U0001F1FA\U0001F1F8 US 55 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 56 VMS"
+  - "\U0001F1FA\U0001F1F8 US 57 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 58 TJN"
+  - "\U0001F1FA\U0001F1F8 US 59 VMS"
+  - "\U0001F1FA\U0001F1F8 US 60 VMS"
+  - "\U0001F1FA\U0001F1F8 US 61 VMS"
+  - "\U0001F1FA\U0001F1F8 US 62 VMS"
+  - "\U0001F1F8\U0001F1EC SG 63 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
