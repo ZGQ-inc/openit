@@ -21,7 +21,193 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+- type: ss
+  name: "\U0001F1EB\U0001F1F7 FR 4 SSS"
+  server: 149.202.82.172
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- type: ss
+  name: "\U0001F1EF\U0001F1F5 JP 5 SSS"
+  server: 185.172.113.182
+  port: 800
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  ws-opts:
+    path: /ikun
+    headers:
+      host: vceu3e.twittei.me
+  server: cdn.twitter.now.cc
+  port: 443
+  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: ss
+  name: "\U0001F1FA\U0001F1F8 US 7 SSS"
+  server: 194.116.173.21
+  port: 9038
+  cipher: aes-256-cfb
+  password: gYCYXfkUQEs2TaJQ
+- type: ss
+  name: "\U0001F1EB\U0001F1F7 FR 8 SSS"
+  server: 54.36.174.181
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ssr
+  name: "\U0001F1EB\U0001F1F7 FR 9 SSR"
+  server: fr-am1-5.eqsunshine.com
+  port: 8181
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: RcfVcDzzB
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0 HK 10 VMS"
+  ws-opts:
+    path: /blue
+    headers:
+      host: tui.vtcss.top
+  server: 103.160.204.71
+  port: 2082
+  uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: ssr
+  name: "\U0001F1EB\U0001F1F7 FR 11 SSR"
+  server: 195.154.118.40
+  port: 443
+  protocol: origin
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  password: NewBypasser2023
+  obfs-param: "cdn.appsflyer.c%\uFFFD"
+- type: ss
+  name: "\U0001F1F5\U0001F1F1 PL 12 SSS"
+  server: 51.77.53.200
+  port: 7306
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- type: ss
+  name: "\U0001F1F5\U0001F1F1 PL 13 SSS"
+  server: 51.77.53.200
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: "\U0001F1EF\U0001F1F5 JP 14 TJN"
+  type: trojan
+  server: jpvip102.qlgq1.pw
+  port: 40443
+  udp: true
+  password: fcfe730f-d32d-38f9-8346-330fd17aac9d
+  sni: jpvip102.qlgq1.pw
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 15 TJN"
+  type: trojan
+  server: sgvip101.qlgq1.pw
+  port: 50443
+  udp: true
+  password: fcfe730f-d32d-38f9-8346-330fd17aac9d
+  sni: sgvip101.qlgq1.pw
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 16 TJN"
+  type: trojan
+  server: jpvip102.qlgq1.pw
+  port: 10443
+  udp: true
+  password: fcfe730f-d32d-38f9-8346-330fd17aac9d
+  sni: jpvip102.qlgq1.pw
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 17 TJN"
+  type: trojan
+  server: sgvip101.qlgq1.pw
+  port: 10443
+  udp: true
+  password: fcfe730f-d32d-38f9-8346-330fd17aac9d
+  sni: sgvip101.qlgq1.pw
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 18 VMS"
+  type: vmess
+  server: hkgsdz.66666654.xyz
+  port: 2095
+  cipher: auto
+  uuid: f78a8c93-fbd4-38e9-ac8d-5ffc476503d3
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hgcefomn
+- name: "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  type: vmess
+  server: amszxc.66666654.xyz
+  port: 2095
+  cipher: auto
+  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hgcefomn
+- name: "\U0001F1FA\U0001F1F8 US 20 VMS"
+  type: vmess
+  server: nlsdwsz.66666654.xyz
+  port: 2095
+  cipher: auto
+  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hgcefomn
+- name: "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  type: vmess
+  server: jhpcza.66666654.xyz
+  port: 2082
+  cipher: auto
+  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /bxpty
+- name: "\U0001F1FA\U0001F1F3 UN 22 VMS"
+  type: vmess
+  server: iaudhcui.76898102.xyz
+  port: 2052
+  cipher: auto
+  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /nfdguiw
+- name: "\U0001F1FA\U0001F1F8 US 23 VMS"
+  type: vmess
+  server: bxaa.76898102.xyz
+  port: 2052
+  cipher: auto
+  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /bxqmiao
+- name: "\U0001F1FA\U0001F1F8 US 24 VMS"
   type: vmess
   server: 172.64.192.167
   port: 80
@@ -35,13 +221,13 @@ proxies:
     path: /shirker
     headers:
       host: uk2.scproxy.top
-- name: "\U0001F1F0\U0001F1F7 KR 5 SSS"
+- name: "\U0001F1F0\U0001F1F7 KR 25 SSS"
   type: ss
   server: 221.150.109.6
   port: 2003
   password: qwerREWQ@@
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 6 TJN"
+- name: "\U0001F1E6\U0001F1FA AU 26 TJN"
   type: trojan
   server: cnamemc1.cdncisco4.co
   port: 443
@@ -52,7 +238,7 @@ proxies:
   network: ws
   ws-opts:
     path: /422Kdfwzf49IxeZJa
-- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 27 VMS"
   type: vmess
   server: 45.199.138.161
   port: 46735
@@ -62,7 +248,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 28 VMS"
   type: vmess
   server: 38.26.135.13
   port: 40940
@@ -72,7 +258,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 9 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 29 VMS"
   type: vmess
   server: 103.160.204.48
   port: 2082
@@ -86,7 +272,7 @@ proxies:
     path: /blue
     headers:
       host: tui.vtcss.top
-- name: "\U0001F1FA\U0001F1F3 UN 10 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 30 VMS"
   type: vmess
   server: 162.159.247.47
   port: 80
@@ -100,7 +286,7 @@ proxies:
     path: /shirker
     headers:
       host: dp3.scproxy.top
-- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 31 VMS"
   type: vmess
   server: fd.shabijichang.com
   port: 80
@@ -114,7 +300,7 @@ proxies:
     path: /
     headers:
       host: cc2.shabijichang.com
-- name: "\U0001F1FA\U0001F1F3 UN 12 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 32 VMS"
   type: vmess
   server: 190.93.245.107
   port: 2082
@@ -128,7 +314,7 @@ proxies:
     path: /blue
     headers:
       host: tui.vtcss.top
-- name: "\U0001F1ED\U0001F1F0 HK 13 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 33 VMS"
   type: vmess
   server: 103.160.204.69
   port: 2082
@@ -142,94 +328,16 @@ proxies:
     path: /blue
     headers:
       host: tui.vtcss.top
-- type: ss
-  name: "\U0001F1EB\U0001F1F7 FR 14 SSS"
-  server: 149.202.82.172
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- type: ss
-  name: "\U0001F1EF\U0001F1F5 JP 15 SSS"
-  server: 185.172.113.182
-  port: 800
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 16 VMS"
-  ws-opts:
-    path: /ikun
-    headers:
-      host: vceu3e.twittei.me
-  server: cdn.twitter.now.cc
-  port: 443
-  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: ss
-  name: "\U0001F1FA\U0001F1F8 US 17 SSS"
-  server: 194.116.173.21
-  port: 9038
-  cipher: aes-256-cfb
-  password: gYCYXfkUQEs2TaJQ
-- type: ss
-  name: "\U0001F1EB\U0001F1F7 FR 18 SSS"
-  server: 54.36.174.181
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- type: ssr
-  name: "\U0001F1EB\U0001F1F7 FR 19 SSR"
-  server: fr-am1-5.eqsunshine.com
-  port: 8181
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: RcfVcDzzB
-- type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 20 VMS"
-  ws-opts:
-    path: /blue
-    headers:
-      host: tui.vtcss.top
-  server: 103.160.204.71
-  port: 2082
-  uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: ssr
-  name: "\U0001F1EB\U0001F1F7 FR 21 SSR"
-  server: 195.154.118.40
-  port: 443
-  protocol: origin
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  password: NewBypasser2023
-  obfs-param: "cdn.appsflyer.c%\uFFFD"
-- type: ss
-  name: "\U0001F1F5\U0001F1F1 PL 22 SSS"
-  server: 51.77.53.200
-  port: 7306
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- type: ss
-  name: "\U0001F1F5\U0001F1F1 PL 23 SSS"
-  server: 51.77.53.200
-  port: 5601
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: "\U0001F1EF\U0001F1F5 JP 24 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 34 TJN"
   type: trojan
-  server: jpvip102.qlgq1.pw
-  port: 40443
+  server: sgvip101.qlgq1.pw
+  port: 10443
   udp: true
   password: fcfe730f-d32d-38f9-8346-330fd17aac9d
-  sni: jpvip102.qlgq1.pw
+  sni: sgvip101.qlgq1.pw
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 25 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 35 TJN"
   type: trojan
   server: sgvip101.qlgq1.pw
   port: 50443
@@ -238,7 +346,7 @@ proxies:
   sni: sgvip101.qlgq1.pw
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 26 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 36 TJN"
   type: trojan
   server: jpvip102.qlgq1.pw
   port: 10443
@@ -247,88 +355,358 @@ proxies:
   sni: jpvip102.qlgq1.pw
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 27 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 37 TJN"
   type: trojan
-  server: sgvip101.qlgq1.pw
-  port: 10443
+  server: jpvip102.qlgq1.pw
+  port: 40443
   udp: true
   password: fcfe730f-d32d-38f9-8346-330fd17aac9d
-  sni: sgvip101.qlgq1.pw
+  sni: jpvip102.qlgq1.pw
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 28 VMS"
-  type: vmess
-  server: hkgsdz.66666654.xyz
-  port: 2095
-  cipher: auto
-  uuid: f78a8c93-fbd4-38e9-ac8d-5ffc476503d3
-  alterId: 0
-  tls: false
+- name: "\U0001F1F0\U0001F1F7 KR 38 SSS"
+  type: ss
+  server: 203.234.238.132
+  port: 2003
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 39 SSS"
+  type: ss
+  server: 54.186.169.110
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 40 SSS"
+  type: ss
+  server: 54.212.14.137
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 41 TJN"
+  type: trojan
+  server: south.steamdownload.top
+  port: 11002
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: south.steamdownload.top
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hgcefomn
-- name: "\U0001F1FA\U0001F1F3 UN 29 VMS"
-  type: vmess
-  server: amszxc.66666654.xyz
-  port: 2095
-  cipher: auto
-  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
-  alterId: 0
-  tls: false
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 42 TJN"
+  type: trojan
+  server: south.steamdownload.top
+  port: 11003
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: south.steamdownload.top
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hgcefomn
-- name: "\U0001F1FA\U0001F1F8 US 30 VMS"
-  type: vmess
-  server: nlsdwsz.66666654.xyz
-  port: 2095
-  cipher: auto
-  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
-  alterId: 0
-  tls: false
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 43 TJN"
+  type: trojan
+  server: south.steamdownload.top
+  port: 11004
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: south.steamdownload.top
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hgcefomn
-- name: "\U0001F1FA\U0001F1F3 UN 31 VMS"
-  type: vmess
-  server: jhpcza.66666654.xyz
-  port: 2082
-  cipher: auto
-  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
-  alterId: 0
-  tls: false
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 44 TJN"
+  type: trojan
+  server: south.steamdownload.top
+  port: 12001
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: south.steamdownload.top
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /bxpty
-- name: "\U0001F1FA\U0001F1F3 UN 32 VMS"
-  type: vmess
-  server: iaudhcui.76898102.xyz
-  port: 2052
-  cipher: auto
-  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
-  alterId: 0
-  tls: false
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 45 TJN"
+  type: trojan
+  server: south.steamdownload.top
+  port: 12002
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: south.steamdownload.top
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /nfdguiw
-- name: "\U0001F1FA\U0001F1F8 US 33 VMS"
-  type: vmess
-  server: bxaa.76898102.xyz
-  port: 2052
-  cipher: auto
-  uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be
-  alterId: 0
-  tls: false
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 46 TJN"
+  type: trojan
+  server: south.steamdownload.top
+  port: 12003
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: south.steamdownload.top
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /bxqmiao
-- name: "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 47 TJN"
+  type: trojan
+  server: east.steamdownload.top
+  port: 13001
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: east.steamdownload.top
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 48 TJN"
+  type: trojan
+  server: east.steamdownload.top
+  port: 15001
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: east.steamdownload.top
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 49 TJN"
+  type: trojan
+  server: east.steamdownload.top
+  port: 15002
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: east.steamdownload.top
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 50 TJN"
+  type: trojan
+  server: s.steamdownload.top
+  port: 16104
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: s.steamdownload.top
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 51 TJN"
+  type: trojan
+  server: s.steamdownload.top
+  port: 16106
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: s.steamdownload.top
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 52 TJN"
+  type: trojan
+  server: s.steamdownload.top
+  port: 16201
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: s.steamdownload.top
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 53 TJN"
+  type: trojan
+  server: s.steamdownload.top
+  port: 16203
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: s.steamdownload.top
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 54 TJN"
+  type: trojan
+  server: e.steamdownload.top
+  port: 16301
+  udp: true
+  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
+  sni: e.steamdownload.top
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 55 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27250
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 56 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27250
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 57 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27250
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 58 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27251
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 59 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27251
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 60 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27251
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 61 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27252
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 62 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27252
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 63 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27252
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 64 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27253
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 65 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27253
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 66 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27253
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 67 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27254
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 68 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27254
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 69 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27254
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 70 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27255
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 71 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27255
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 72 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27255
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 73 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27256
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 74 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27256
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 75 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27256
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 76 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27257
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 77 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27257
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 78 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27257
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 79 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27258
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 80 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27258
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 81 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27258
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 82 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27259
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 83 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27259
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 84 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27259
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 85 SSS"
+  type: ss
+  server: yd.ktmwan.top
+  port: 27260
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 86 SSS"
+  type: ss
+  server: lt.ktmwan.top
+  port: 27260
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 87 SSS"
+  type: ss
+  server: dx.ktmwan.top
+  port: 27260
+  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1FA\U0001F1F3 UN 88 VMS"
   type: vmess
   server: 162.159.251.216
   port: 8080
@@ -342,7 +720,7 @@ proxies:
     path: /
     headers:
       host: vceu3.vpn66.eu.org
-- name: "\U0001F1FA\U0001F1F8 US 35 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 89 TJN"
   type: trojan
   server: 45.63.106.86
   port: 42903
@@ -350,7 +728,7 @@ proxies:
   password: TmxGNUA1jL
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 36 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 90 VMS"
   type: vmess
   server: cf1.992688.xyz
   port: 8080
@@ -364,7 +742,7 @@ proxies:
     path: /
     headers:
       host: vcus2.vpn66.eu.org
-- name: "\U0001F1FA\U0001F1F3 UN 37 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 91 VMS"
   type: vmess
   server: 162.159.194.228
   port: 80
@@ -378,7 +756,7 @@ proxies:
     path: /shirker
     headers:
       host: dp4.ilovescp.com
-- name: "\U0001F1ED\U0001F1F0 HK 38 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 92 TJN"
   type: trojan
   server: 18.163.249.175
   port: 443
@@ -387,7 +765,7 @@ proxies:
   sni: golang.protocolbuffer.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 39 VMS"
+- name: "\U0001F1E8\U0001F1FE CY 93 VMS"
   type: vmess
   server: wi.saintink.eu.org
   port: 443
@@ -401,7 +779,7 @@ proxies:
     path: /vuk2.0bad.com/chat
     headers:
       host: sub2.saintink.eu.org
-- name: "\U0001F1FA\U0001F1F8 US 40 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 94 VMS"
   type: vmess
   server: 64.32.4.53
   port: 43556
@@ -411,7 +789,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 41 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 95 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -425,7 +803,7 @@ proxies:
     path: /shirker
     headers:
       host: dp4.scproxy.top
-- name: "\U0001F1FA\U0001F1F8 US 42 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 96 VMS"
   type: vmess
   server: 104.25.232.114
   port: 2082
@@ -439,384 +817,6 @@ proxies:
     path: /blue
     headers:
       host: tui.vtcss.top
-- name: "\U0001F1F8\U0001F1EC SG 43 TJN"
-  type: trojan
-  server: sgvip101.qlgq1.pw
-  port: 10443
-  udp: true
-  password: fcfe730f-d32d-38f9-8346-330fd17aac9d
-  sni: sgvip101.qlgq1.pw
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 44 TJN"
-  type: trojan
-  server: sgvip101.qlgq1.pw
-  port: 50443
-  udp: true
-  password: fcfe730f-d32d-38f9-8346-330fd17aac9d
-  sni: sgvip101.qlgq1.pw
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 45 TJN"
-  type: trojan
-  server: jpvip102.qlgq1.pw
-  port: 10443
-  udp: true
-  password: fcfe730f-d32d-38f9-8346-330fd17aac9d
-  sni: jpvip102.qlgq1.pw
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 46 TJN"
-  type: trojan
-  server: jpvip102.qlgq1.pw
-  port: 40443
-  udp: true
-  password: fcfe730f-d32d-38f9-8346-330fd17aac9d
-  sni: jpvip102.qlgq1.pw
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F0\U0001F1F7 KR 47 SSS"
-  type: ss
-  server: 203.234.238.132
-  port: 2003
-  password: qwerREWQ@@
-  cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 48 SSS"
-  type: ss
-  server: 54.186.169.110
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 49 SSS"
-  type: ss
-  server: 54.212.14.137
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 50 TJN"
-  type: trojan
-  server: south.steamdownload.top
-  port: 11002
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: south.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 51 TJN"
-  type: trojan
-  server: south.steamdownload.top
-  port: 11003
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: south.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 52 TJN"
-  type: trojan
-  server: south.steamdownload.top
-  port: 11004
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: south.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 53 TJN"
-  type: trojan
-  server: south.steamdownload.top
-  port: 12001
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: south.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 54 TJN"
-  type: trojan
-  server: south.steamdownload.top
-  port: 12002
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: south.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 55 TJN"
-  type: trojan
-  server: south.steamdownload.top
-  port: 12003
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: south.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 56 TJN"
-  type: trojan
-  server: east.steamdownload.top
-  port: 13001
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: east.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 57 TJN"
-  type: trojan
-  server: east.steamdownload.top
-  port: 15001
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: east.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 58 TJN"
-  type: trojan
-  server: east.steamdownload.top
-  port: 15002
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: east.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 59 TJN"
-  type: trojan
-  server: s.steamdownload.top
-  port: 16104
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: s.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 60 TJN"
-  type: trojan
-  server: s.steamdownload.top
-  port: 16106
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: s.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 61 TJN"
-  type: trojan
-  server: s.steamdownload.top
-  port: 16201
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: s.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 62 TJN"
-  type: trojan
-  server: s.steamdownload.top
-  port: 16203
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: s.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 63 TJN"
-  type: trojan
-  server: e.steamdownload.top
-  port: 16301
-  udp: true
-  password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e
-  sni: e.steamdownload.top
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 64 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27250
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 65 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27250
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 66 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27250
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 67 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27251
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 68 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27251
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 69 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27251
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 70 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27252
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 71 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27252
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 72 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27252
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 73 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27253
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 74 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27253
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 75 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27253
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 76 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27254
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 77 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27254
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 78 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27254
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 79 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27255
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 80 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27255
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 81 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27255
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 82 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27256
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 83 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27256
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 84 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27256
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 85 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27257
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 86 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27257
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 87 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27257
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 88 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27258
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 89 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27258
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 90 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27258
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 91 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27259
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 92 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27259
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 93 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27259
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 94 SSS"
-  type: ss
-  server: yd.ktmwan.top
-  port: 27260
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 95 SSS"
-  type: ss
-  server: lt.ktmwan.top
-  port: 27260
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 96 SSS"
-  type: ss
-  server: dx.ktmwan.top
-  port: 27260
-  password: 8462ff3d-ab9a-4314-b6b0-5b34c4e4b53c
-  cipher: chacha20-ietf-poly1305
 - name: "\U0001F1FA\U0001F1F8 US 97 VMS"
   type: vmess
   server: speedip.eu.org
@@ -1298,66 +1298,66 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 5 SSS"
-  - "\U0001F1FA\U0001F1F8 US 6 TJN"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
-  - "\U0001F1FA\U0001F1F8 US 11 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 13 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 14 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 15 SSS"
-  - "\U0001F1FA\U0001F1F8 US 16 VMS"
-  - "\U0001F1FA\U0001F1F8 US 17 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 18 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 19 SSR"
-  - "\U0001F1ED\U0001F1F0 HK 20 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 21 SSR"
-  - "\U0001F1F5\U0001F1F1 PL 22 SSS"
-  - "\U0001F1F5\U0001F1F1 PL 23 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 24 TJN"
-  - "\U0001F1F8\U0001F1EC SG 25 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 26 TJN"
-  - "\U0001F1F8\U0001F1EC SG 27 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 28 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 29 VMS"
-  - "\U0001F1FA\U0001F1F8 US 30 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 4 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 8 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 9 SSR"
+  - "\U0001F1ED\U0001F1F0 HK 10 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 11 SSR"
+  - "\U0001F1F5\U0001F1F1 PL 12 SSS"
+  - "\U0001F1F5\U0001F1F1 PL 13 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 14 TJN"
+  - "\U0001F1F8\U0001F1EC SG 15 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 16 TJN"
+  - "\U0001F1F8\U0001F1EC SG 17 TJN"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 22 VMS"
+  - "\U0001F1FA\U0001F1F8 US 23 VMS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 25 SSS"
+  - "\U0001F1E6\U0001F1FA AU 26 TJN"
+  - "\U0001F1FA\U0001F1F8 US 27 VMS"
+  - "\U0001F1FA\U0001F1F8 US 28 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 29 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 30 VMS"
+  - "\U0001F1FA\U0001F1F8 US 31 VMS"
   - "\U0001F1FA\U0001F1F3 UN 32 VMS"
-  - "\U0001F1FA\U0001F1F8 US 33 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
-  - "\U0001F1FA\U0001F1F8 US 35 TJN"
-  - "\U0001F1FA\U0001F1F8 US 36 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 38 TJN"
-  - "\U0001F1FA\U0001F1F8 US 39 VMS"
-  - "\U0001F1FA\U0001F1F8 US 40 VMS"
-  - "\U0001F1FA\U0001F1F8 US 41 VMS"
-  - "\U0001F1FA\U0001F1F8 US 42 VMS"
-  - "\U0001F1F8\U0001F1EC SG 43 TJN"
-  - "\U0001F1F8\U0001F1EC SG 44 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 45 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 46 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 47 SSS"
-  - "\U0001F1FA\U0001F1F8 US 48 SSS"
-  - "\U0001F1FA\U0001F1F8 US 49 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 33 VMS"
+  - "\U0001F1F8\U0001F1EC SG 34 TJN"
+  - "\U0001F1F8\U0001F1EC SG 35 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 36 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 37 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 38 SSS"
+  - "\U0001F1FA\U0001F1F8 US 39 SSS"
+  - "\U0001F1FA\U0001F1F8 US 40 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 41 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 42 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 43 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 44 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 45 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 46 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 47 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 48 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 49 TJN"
   - "\U0001F1E8\U0001F1F3 CN 50 TJN"
   - "\U0001F1E8\U0001F1F3 CN 51 TJN"
   - "\U0001F1E8\U0001F1F3 CN 52 TJN"
   - "\U0001F1E8\U0001F1F3 CN 53 TJN"
   - "\U0001F1E8\U0001F1F3 CN 54 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 55 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 56 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 57 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 58 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 59 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 60 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 61 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 62 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 63 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 55 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 56 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 57 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 58 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 59 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 60 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 61 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 62 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 63 SSS"
   - "\U0001F1E8\U0001F1F3 CN 64 SSS"
   - "\U0001F1E8\U0001F1F3 CN 65 SSS"
   - "\U0001F1E8\U0001F1F3 CN 66 SSS"
@@ -1382,15 +1382,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 85 SSS"
   - "\U0001F1E8\U0001F1F3 CN 86 SSS"
   - "\U0001F1E8\U0001F1F3 CN 87 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 88 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 89 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 90 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 91 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 92 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 93 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 94 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 95 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 96 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 88 VMS"
+  - "\U0001F1FA\U0001F1F8 US 89 TJN"
+  - "\U0001F1FA\U0001F1F8 US 90 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 91 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 92 TJN"
+  - "\U0001F1E8\U0001F1FE CY 93 VMS"
+  - "\U0001F1FA\U0001F1F8 US 94 VMS"
+  - "\U0001F1FA\U0001F1F8 US 95 VMS"
+  - "\U0001F1FA\U0001F1F8 US 96 VMS"
   - "\U0001F1FA\U0001F1F8 US 97 VMS"
   - "\U0001F1FA\U0001F1F8 US 98 VMS"
   - "\U0001F1FA\U0001F1F8 US 99 VMS"
@@ -1440,66 +1440,66 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 5 SSS"
-  - "\U0001F1FA\U0001F1F8 US 6 TJN"
-  - "\U0001F1FA\U0001F1F8 US 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
-  - "\U0001F1FA\U0001F1F8 US 11 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 13 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 14 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 15 SSS"
-  - "\U0001F1FA\U0001F1F8 US 16 VMS"
-  - "\U0001F1FA\U0001F1F8 US 17 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 18 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 19 SSR"
-  - "\U0001F1ED\U0001F1F0 HK 20 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 21 SSR"
-  - "\U0001F1F5\U0001F1F1 PL 22 SSS"
-  - "\U0001F1F5\U0001F1F1 PL 23 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 24 TJN"
-  - "\U0001F1F8\U0001F1EC SG 25 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 26 TJN"
-  - "\U0001F1F8\U0001F1EC SG 27 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 28 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 29 VMS"
-  - "\U0001F1FA\U0001F1F8 US 30 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 4 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 8 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 9 SSR"
+  - "\U0001F1ED\U0001F1F0 HK 10 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 11 SSR"
+  - "\U0001F1F5\U0001F1F1 PL 12 SSS"
+  - "\U0001F1F5\U0001F1F1 PL 13 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 14 TJN"
+  - "\U0001F1F8\U0001F1EC SG 15 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 16 TJN"
+  - "\U0001F1F8\U0001F1EC SG 17 TJN"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 22 VMS"
+  - "\U0001F1FA\U0001F1F8 US 23 VMS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 25 SSS"
+  - "\U0001F1E6\U0001F1FA AU 26 TJN"
+  - "\U0001F1FA\U0001F1F8 US 27 VMS"
+  - "\U0001F1FA\U0001F1F8 US 28 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 29 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 30 VMS"
+  - "\U0001F1FA\U0001F1F8 US 31 VMS"
   - "\U0001F1FA\U0001F1F3 UN 32 VMS"
-  - "\U0001F1FA\U0001F1F8 US 33 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
-  - "\U0001F1FA\U0001F1F8 US 35 TJN"
-  - "\U0001F1FA\U0001F1F8 US 36 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 38 TJN"
-  - "\U0001F1FA\U0001F1F8 US 39 VMS"
-  - "\U0001F1FA\U0001F1F8 US 40 VMS"
-  - "\U0001F1FA\U0001F1F8 US 41 VMS"
-  - "\U0001F1FA\U0001F1F8 US 42 VMS"
-  - "\U0001F1F8\U0001F1EC SG 43 TJN"
-  - "\U0001F1F8\U0001F1EC SG 44 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 45 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 46 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 47 SSS"
-  - "\U0001F1FA\U0001F1F8 US 48 SSS"
-  - "\U0001F1FA\U0001F1F8 US 49 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 33 VMS"
+  - "\U0001F1F8\U0001F1EC SG 34 TJN"
+  - "\U0001F1F8\U0001F1EC SG 35 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 36 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 37 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 38 SSS"
+  - "\U0001F1FA\U0001F1F8 US 39 SSS"
+  - "\U0001F1FA\U0001F1F8 US 40 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 41 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 42 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 43 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 44 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 45 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 46 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 47 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 48 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 49 TJN"
   - "\U0001F1E8\U0001F1F3 CN 50 TJN"
   - "\U0001F1E8\U0001F1F3 CN 51 TJN"
   - "\U0001F1E8\U0001F1F3 CN 52 TJN"
   - "\U0001F1E8\U0001F1F3 CN 53 TJN"
   - "\U0001F1E8\U0001F1F3 CN 54 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 55 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 56 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 57 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 58 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 59 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 60 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 61 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 62 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 63 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 55 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 56 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 57 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 58 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 59 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 60 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 61 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 62 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 63 SSS"
   - "\U0001F1E8\U0001F1F3 CN 64 SSS"
   - "\U0001F1E8\U0001F1F3 CN 65 SSS"
   - "\U0001F1E8\U0001F1F3 CN 66 SSS"
@@ -1524,15 +1524,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 85 SSS"
   - "\U0001F1E8\U0001F1F3 CN 86 SSS"
   - "\U0001F1E8\U0001F1F3 CN 87 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 88 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 89 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 90 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 91 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 92 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 93 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 94 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 95 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 96 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 88 VMS"
+  - "\U0001F1FA\U0001F1F8 US 89 TJN"
+  - "\U0001F1FA\U0001F1F8 US 90 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 91 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 92 TJN"
+  - "\U0001F1E8\U0001F1FE CY 93 VMS"
+  - "\U0001F1FA\U0001F1F8 US 94 VMS"
+  - "\U0001F1FA\U0001F1F8 US 95 VMS"
+  - "\U0001F1FA\U0001F1F8 US 96 VMS"
   - "\U0001F1FA\U0001F1F8 US 97 VMS"
   - "\U0001F1FA\U0001F1F8 US 98 VMS"
   - "\U0001F1FA\U0001F1F8 US 99 VMS"
