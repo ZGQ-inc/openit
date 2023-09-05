@@ -265,7 +265,7 @@ proxies:
     path: /blue06
     headers:
       host: ecc.vtcss.top
-- name: "\U0001F1FA\U0001F1F3 UN 29 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 29 VMS"
   type: vmess
   server: s1224.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 8080
@@ -289,6 +289,49 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 31 TJN"
+  type: trojan
+  server: rn.ywcloud.cf
+  port: 443
+  udp: true
+  password: 3cab4355-1a73-4b27-b744-64cc64602dd3
+  sni: rn.ywcloud.cf
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    headers:
+      host: rn.ywcloud.cf
+- name: "\U0001F1EF\U0001F1F5 JP 32 TJN"
+  type: trojan
+  server: ry.ywcloud.cf
+  port: 443
+  udp: true
+  password: 5eb2c89b-57e8-4fb8-9c22-66ba06479b1d
+  sni: ry.ywcloud.cf
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    headers:
+      host: ry.ywcloud.cf
+- name: "\U0001F1EF\U0001F1F5 JP 33 TJN"
+  type: trojan
+  server: xyz.ywcloud.cf
+  port: 443
+  udp: true
+  password: bcae8acb-6362-4663-92d3-26246ef88fed
+  sni: xyz.ywcloud.cf
+  skip-cert-verify: true
+  network: tcp
+  ws-opts:
+    headers:
+      host: xyz.ywcloud.cf
+- name: "\U0001F1F8\U0001F1EC SG 34 TJN"
+  type: trojan
+  server: ly.ywcloud.cf
+  port: 443
+  udp: true
+  password: pnZFeHeXu6
+  skip-cert-verify: true
 proxy-groups:
 - name: automatic
   type: url-test
@@ -321,8 +364,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 26 VMS"
   - "\U0001F1EE\U0001F1F3 IN 27 TJN"
   - "\U0001F1ED\U0001F1F0 HK 28 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 29 VMS"
+  - "\U0001F1FA\U0001F1F8 US 29 VMS"
   - "\U0001F1E8\U0001F1F3 CN 30 VMS"
+  - "\U0001F1FA\U0001F1F8 US 31 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 32 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 33 TJN"
+  - "\U0001F1F8\U0001F1EC SG 34 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -357,7 +404,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 26 VMS"
   - "\U0001F1EE\U0001F1F3 IN 27 TJN"
   - "\U0001F1ED\U0001F1F0 HK 28 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 29 VMS"
+  - "\U0001F1FA\U0001F1F8 US 29 VMS"
   - "\U0001F1E8\U0001F1F3 CN 30 VMS"
+  - "\U0001F1FA\U0001F1F8 US 31 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 32 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 33 TJN"
+  - "\U0001F1F8\U0001F1EC SG 34 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
