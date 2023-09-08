@@ -21,6 +21,86 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 4 TJN"
+  type: trojan
+  server: whiteswang.club
+  port: 1980
+  udp: true
+  password: 561b7a41-13e8-4799-8239-e4e5faf8562c
+  sni: whiteswang.club
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: "\U0001F1FA\U0001F1F8 US 5 TJN"
+  type: trojan
+  server: lucheap.store
+  port: 6023
+  udp: true
+  password: c0f25d60-620e-4b1b-8e44-78ecd0da57d0
+  sni: lucheap.store
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: "\U0001F1EA\U0001F1EA EE 6 TJN"
+  type: trojan
+  server: nyr048.xyz
+  port: 6023
+  udp: true
+  password: 00fad53c-684f-469e-8062-6950cc4500bc
+  sni: nyr048.xyz
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: "\U0001F1FA\U0001F1F8 US 7 TJN"
+  type: trojan
+  server: winfo.shop
+  port: 8003
+  udp: true
+  password: 39cfe88e-c58e-419c-9054-637575d07008
+  sni: winfo.shop
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: "\U0001F1ED\U0001F1F0 HK 8 TJN"
+  type: trojan
+  server: luyangmao.store
+  port: 443
+  udp: true
+  password: 21ff1543-b38d-4a3c-9007-6118b8ee796f
+  sni: luyangmao.store
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: "\U0001F1EF\U0001F1F5 JP 9 TJN"
+  type: trojan
+  server: mynyr.site
+  port: 8003
+  udp: true
+  password: ef10ed06-f061-4ed3-b418-0df34c9ab325
+  sni: mynyr.site
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: "\U0001F1EC\U0001F1E7 GB 10 TJN"
+  type: trojan
+  server: ipoints.shop
+  port: 6023
+  udp: true
+  password: 892c9285-96c3-4623-8e6c-3e8b321eee8e
+  sni: ipoints.shop
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: "\U0001F1EC\U0001F1E7 GB 11 TJN"
+  type: trojan
+  server: ipoints.site
+  port: 6023
+  udp: true
+  password: 158cd0ee-131c-445c-874d-5b8ac9cc3f3b
+  sni: mynyr.online
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +108,14 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 TJN"
+  - "\U0001F1FA\U0001F1F8 US 5 TJN"
+  - "\U0001F1EA\U0001F1EA EE 6 TJN"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 8 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 9 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 10 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 11 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +125,13 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 TJN"
+  - "\U0001F1FA\U0001F1F8 US 5 TJN"
+  - "\U0001F1EA\U0001F1EA EE 6 TJN"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 8 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 9 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 10 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 11 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
