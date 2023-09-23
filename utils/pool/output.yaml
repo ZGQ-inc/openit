@@ -21,6 +21,70 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
+  server: 45.199.138.209
+  port: 50447
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: fhc.shabijichang.com
+  port: 80
+  cipher: auto
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: "\U0001F1F9\U0001F1FC TW 6 VMS"
+  type: vmess
+  server: tw22.tutu4.one
+  port: 443
+  cipher: auto
+  uuid: 8569a016-24e9-34cd-a9d2-9de42c6ca245
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tu
+    headers:
+      host: tw22.tutu4.one
+- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+  type: vmess
+  server: wnd.shabijichang.com
+  port: 80
+  cipher: auto
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: wnd.shabijichang.com
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+  type: vmess
+  server: 172.67.99.73
+  port: 80
+  cipher: auto
+  uuid: 6278dc83-1389-4d16-8ebb-0b8590b03582
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: sls.shabijichang.com
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +92,11 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1F9\U0001F1FC TW 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +106,10 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1F9\U0001F1FC TW 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
