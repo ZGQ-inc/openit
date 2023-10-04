@@ -21,6 +21,100 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
+  server: yd1.992688.xyz
+  port: 8880
+  cipher: auto
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      host: vceu3.vpn66.eu.org
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: tunneltransfer.bpyjc.com
+  port: 8880
+  cipher: auto
+  uuid: 22fede49-0280-4472-980e-4549f8bcb53c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      host: us.bpyjc.com
+- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  type: vmess
+  server: fd.shabijichang.com
+  port: 80
+  cipher: auto
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: yhnsb3.shabijichang.com
+- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+  type: vmess
+  server: ns1.v2-vip.fun
+  port: 80
+  cipher: auto
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v03.ssrsub.com
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+  type: vmess
+  server: 45.199.138.222
+  port: 30000
+  cipher: auto
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1696251693048
+    headers:
+      host: www.19229362.xyz
+- name: "\U0001F1FA\U0001F1F8 US 9 SSS"
+  type: ss
+  server: 216.52.183.243
+  port: 1001
+  password: 83XvX4Vo%*3a
+  cipher: aes-128-gcm
+- name: "\U0001F1FA\U0001F1F8 US 10 SSS"
+  type: ss
+  server: usshs2.gophers.gay
+  port: 20800
+  password: f5d95005-be14-40fc-bedc-e4a1133a5701
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  type: ss
+  server: foshan.chiguayun.cc
+  port: 27140
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  type: ss
+  server: foshan.chiguayun.cc
+  port: 27142
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  cipher: chacha20-ietf-poly1305
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +122,15 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 SSS"
+  - "\U0001F1FA\U0001F1F8 US 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +140,14 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 SSS"
+  - "\U0001F1FA\U0001F1F8 US 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
