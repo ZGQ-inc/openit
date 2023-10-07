@@ -21,6 +21,98 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
+  server: fd.shabijichang.com
+  port: 80
+  cipher: auto
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: mrb.shabijichang.com
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: 45.199.138.222
+  port: 30000
+  cipher: auto
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1696251693048
+    headers:
+      host: www.19229362.xyz
+- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  type: vmess
+  server: dx1.992688.xyz
+  port: 8880
+  cipher: auto
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      host: vceu3.vpn66.eu.org
+- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  type: vmess
+  server: cf.yx.alue.link
+  port: 2052
+  cipher: auto
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: us.wx.alue.link
+- name: "\U0001F1FA\U0001F1F8 US 8 SSS"
+  type: ss
+  server: usshs2.gophers.gay
+  port: 20800
+  password: f5d95005-be14-40fc-bedc-e4a1133a5701
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1FA\U0001F1F8 US 9 VMS"
+  type: vmess
+  server: 5.161.191.195
+  port: 2083
+  cipher: auto
+  uuid: 1c5cd450-a5cc-4803-d0ef-1ea424cc4ba2
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: http
+- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+  type: vmess
+  server: 45.199.138.191
+  port: 30000
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1696251522438
+    headers:
+      host: www.42077230.xyz
+- name: "\U0001F1FA\U0001F1F8 US 11 SSS"
+  type: ss
+  server: 216.52.183.243
+  port: 1001
+  password: 83XvX4Vo%*3a
+  cipher: aes-128-gcm
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +120,14 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 SSS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +137,13 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 SSS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
