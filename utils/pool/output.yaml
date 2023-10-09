@@ -21,6 +21,146 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- type: vmess
+  name: "\U0001F1EB\U0001F1EE FI 4 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - internet.life.com.by
+  server: 95.216.216.255
+  port: 3389
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1EE\U0001F1F7 IR 5 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - a
+  server: 128.140.36.143
+  port: 80
+  uuid: c2eb60b5-f4b5-4488-ac02-842b01734c66
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1EE\U0001F1F7 IR 6 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - a
+  server: 128.140.14.190
+  port: 80
+  uuid: c6cf7ea3-e23e-404f-a1f3-0ba3c1d6bfd5
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1EE\U0001F1F7 IR 7 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - internet.life.com.by
+  server: 128.140.103.90
+  port: 80
+  uuid: 4252c7fa-2248-4dd2-930d-46f6ca313e4f
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - a
+  server: 5.161.205.232
+  port: 80
+  uuid: 9e855123-ef25-4a0c-a7ee-8a64e5cc89af
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 9 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - internet.life.com.by
+  server: 5.161.209.199
+  port: 80
+  uuid: ddaa9be4-597e-4440-97d2-1c2ced62ac50
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - a
+  server: 5.161.124.62
+  port: 80
+  uuid: 22d35615-ed42-4353-bb70-8024287e05fc
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1E9\U0001F1EA DE 11 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - a
+  server: 5.78.105.4
+  port: 80
+  uuid: 6b4a53ce-6cbb-496c-ac18-705a50da2e6d
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1E9\U0001F1EA DE 12 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - a
+  server: 5.78.94.3
+  port: 80
+  uuid: afe0c142-10bc-4b84-812c-9b91cec030aa
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: "\U0001F1E9\U0001F1EA DE 13 VMS"
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - a
+  server: 5.78.80.24
+  port: 80
+  uuid: 1c75afae-da2e-469f-b758-927f5b4b4cf4
+  alterId: '0'
+  cipher: auto
+  network: http
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +168,16 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1EB\U0001F1EE FI 4 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 5 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 6 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1E9\U0001F1EA DE 11 VMS"
+  - "\U0001F1E9\U0001F1EA DE 12 VMS"
+  - "\U0001F1E9\U0001F1EA DE 13 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +187,15 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1EB\U0001F1EE FI 4 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 5 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 6 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 7 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1E9\U0001F1EA DE 11 VMS"
+  - "\U0001F1E9\U0001F1EA DE 12 VMS"
+  - "\U0001F1E9\U0001F1EA DE 13 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
