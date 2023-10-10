@@ -21,6 +21,20 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  type: vmess
+  server: t.zhulida.cc
+  port: 443
+  cipher: auto
+  uuid: d0cab687-cc1b-494c-95c7-d4b0b069c76b
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /c6d6b130f9?ed=2048
+    headers:
+      host: t.zhulida.cc
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +42,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +52,6 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
