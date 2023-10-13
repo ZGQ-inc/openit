@@ -27,7 +27,19 @@ proxies:
   port: 443
   password: asdKkaskJKfnsa
   cipher: aes-256-cfb
-- name: "\U0001F1F0\U0001F1F7 KR 5 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: 45.199.138.222
+  port: 30000
+  cipher: auto
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1696251693048
+- name: "\U0001F1F0\U0001F1F7 KR 6 VMS"
   type: vmess
   server: 130.162.154.209
   port: 443
@@ -49,7 +61,8 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1EB\U0001F1F7 FR 4 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 6 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -60,6 +73,7 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1EB\U0001F1F7 FR 4 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 6 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
