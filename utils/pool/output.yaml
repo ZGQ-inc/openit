@@ -21,6 +21,164 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  type: vmess
+  server: 8.218.136.25
+  port: 8880
+  cipher: auto
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vm?ed=2048
+    headers:
+      host: jp.kxking.eu.org
+- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  type: vmess
+  server: v2nodep-hk5.hkss.online
+  port: 553
+  cipher: auto
+  uuid: 611d6f50-56c6-3a24-af24-faf2037dec59
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 6 VMS"
+  type: vmess
+  server: 8.210.55.134
+  port: 8880
+  cipher: auto
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vm?ed=2048
+    headers:
+      host: chunchuan.kxking.eu.org
+- name: "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  type: ss
+  server: hks03.bigpings.com
+  port: 23218
+  password: f42ab2fa-391b-4ce2-8b90-7720504f2632
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
+  type: vmess
+  server: 104.26.0.2
+  port: 80
+  cipher: auto
+  uuid: 541ea7b0-23c1-4590-ad1b-18e6f58758d7
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@daozhang6666
+    headers:
+      host: usa.daozhang.link
+- name: "\U0001F1FA\U0001F1F8 US 9 VMS"
+  type: vmess
+  server: 142.4.125.84
+  port: 59614
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EB\U0001F1F7 FR 10 TJN"
+  type: trojan
+  server: 15.188.135.255
+  port: 22222
+  udp: true
+  password: telegram-id-privatevpns
+  sni: trj.rollingnext.co.uk
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+  type: vmess
+  server: 89.116.38.184
+  port: 3456
+  cipher: auto
+  uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  type: trojan
+  server: t-06.outrdp.xyz
+  port: 14008
+  udp: true
+  password: 2e724af9-64f0-353b-8a68-d5a9223b08b1
+  sni: ip2648428075.mobgslb.tbcache.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 13 VMS"
+  type: vmess
+  server: 172.64.105.126
+  port: 2052
+  cipher: auto
+  uuid: b63efdd5-bdb8-4eb4-f918-9846cd7321e6
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vcus1.vpn66.eu.org
+- name: "\U0001F1FA\U0001F1F8 US 14 VMS"
+  type: vmess
+  server: 192.203.230.245
+  port: 2052
+  cipher: auto
+  uuid: e4590fdf-e412-4632-a857-800257eabaef
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /public
+    headers:
+      host: de5.biqibao.site
+- name: "\U0001F1E8\U0001F1E6 CA 15 VMS"
+  type: vmess
+  server: 108.181.10.17
+  port: 80
+  cipher: auto
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /0vixdm74
+    headers:
+      host: teams.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 16 VMS"
+  type: vmess
+  server: 112.29.94.22
+  port: 53300
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 17 VMS"
+  type: vmess
+  server: www.lp-airdrop.top
+  port: 12580
+  cipher: auto
+  uuid: 1296f28f-fbc3-41a0-800d-84e236d33f16
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +186,20 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 6 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  - "\U0001F1FA\U0001F1F8 US 13 VMS"
+  - "\U0001F1FA\U0001F1F8 US 14 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 15 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 16 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 17 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +209,19 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 6 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  - "\U0001F1FA\U0001F1F8 US 13 VMS"
+  - "\U0001F1FA\U0001F1F8 US 14 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 15 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 16 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 17 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
