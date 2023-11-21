@@ -41,6 +41,140 @@ proxies:
   protocol: auth_aes128_sha1
   obfs-param: TG@wangcai_1
   protocol-param: 40575:fV3Nxq
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  type: vmess
+  server: 172.64.151.101
+  port: 443
+  cipher: auto
+  uuid: 86b15746-8e58-49cb-ab2a-3e95d09d9128
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: usa1.iranspeed.me
+- name: "\U0001F1FA\U0001F1F8 US 7 TJN"
+  type: trojan
+  server: us2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  port: 443
+  udp: true
+  password: 4e9451c6-0678-4e37-acc9-8afcc39451c5
+  sni: 13-231-155-134.nhost.00cdn.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  type: ss
+  server: bjcu.xzyunjiasu.icu
+  port: 33952
+  password: 5c8b210a-2f00-4292-964b-05281c7ad5d1
+  cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  type: vmess
+  server: mm2.shabijichang.com
+  port: 80
+  cipher: auto
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: mm2.shabijichang.com
+- name: "\U0001F1EC\U0001F1E7 GB 10 VMS"
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  cipher: auto
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+- name: "\U0001F1FA\U0001F1F8 US 11 TJN"
+  type: trojan
+  server: ca.liangyuandiancloud.com
+  port: 443
+  udp: true
+  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 12 TJN"
+  type: trojan
+  server: sg2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  port: 443
+  udp: true
+  password: 4e9451c6-0678-4e37-acc9-8afcc39451c5
+  sni: 13-231-155-134.nhost.00cdn.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 13 SSR"
+  type: ssr
+  server: yd-05.paofunlink.com
+  port: 1083
+  password: bxsnucrgk6hfish
+  cipher: chacha20-ietf
+  obfs: plain
+  protocol: auth_aes128_sha1
+  obfs-param: TG@wangcai_1
+  protocol-param: 40575:fV3Nxq
+- name: "\U0001F1FA\U0001F1F8 US 14 SSS"
+  type: ss
+  server: 74.121.191.98
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+- name: "\U0001F1F3\U0001F1F1 NL 15 SSS"
+  type: ss
+  server: 51.15.27.48
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+- name: "\U0001F1F3\U0001F1F1 NL 16 VMS"
+  type: vmess
+  server: 154.85.1.130
+  port: 30000
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1698843555400
+- name: "\U0001F1FA\U0001F1F8 US 17 VMS"
+  type: vmess
+  server: mm3.shabijichang.com
+  port: 80
+  cipher: auto
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: mm3.shabijichang.com
+- name: "\U0001F1FA\U0001F1F8 US 18 VMS"
+  type: vmess
+  server: mrb2.shabijichang.com
+  port: 80
+  cipher: auto
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: mrb2.shabijichang.com
 proxy-groups:
 - name: automatic
   type: url-test
@@ -50,6 +184,19 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1E8\U0001F1F3 CN 4 SSR"
   - "\U0001F1E8\U0001F1F3 CN 5 SSR"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 10 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 TJN"
+  - "\U0001F1FA\U0001F1F8 US 12 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSR"
+  - "\U0001F1FA\U0001F1F8 US 14 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 15 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 16 VMS"
+  - "\U0001F1FA\U0001F1F8 US 17 VMS"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -61,5 +208,18 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1E8\U0001F1F3 CN 4 SSR"
   - "\U0001F1E8\U0001F1F3 CN 5 SSR"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 8 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 10 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 TJN"
+  - "\U0001F1FA\U0001F1F8 US 12 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSR"
+  - "\U0001F1FA\U0001F1F8 US 14 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 15 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 16 VMS"
+  - "\U0001F1FA\U0001F1F8 US 17 VMS"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
