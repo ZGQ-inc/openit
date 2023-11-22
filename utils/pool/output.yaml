@@ -23,6 +23,48 @@ proxies:
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 4 VMS"
   type: vmess
+  server: mrb2.shabijichang.com
+  port: 80
+  cipher: auto
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: mrb2.shabijichang.com
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: a8.wxlljc520.com
+  port: 443
+  cipher: auto
+  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /apple
+    headers:
+      host: 777.golinkwuxian.top
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  type: vmess
+  server: a7.wxlljc520.com
+  port: 443
+  cipher: auto
+  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /apple
+    headers:
+      host: 777.golinkwuxian.top
+- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+  type: vmess
   server: 38.165.8.155
   port: 40233
   cipher: auto
@@ -39,6 +81,9 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -49,5 +94,8 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
