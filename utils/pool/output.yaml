@@ -21,6 +21,84 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  type: vmess
+  server: cfyx3.freeapp.buzz
+  port: 80
+  cipher: auto
+  uuid: a5319baa-e846-43c7-91c2-d67a1e307c8b
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: icu2.mac2win.top
+- name: "\U0001F1EB\U0001F1F7 FR 5 SSS"
+  type: ss
+  server: 51.158.195.96
+  port: 110
+  password: asdKkaskJKfnsa
+  cipher: aes-256-cfb
+- name: "\U0001F1EB\U0001F1F7 FR 6 SSS"
+  type: ss
+  server: 54.36.174.181
+  port: 9101
+  password: e4FCWrgpkji3QY
+  cipher: aes-256-gcm
+- name: "\U0001F1EB\U0001F1F7 FR 7 SSS"
+  type: ss
+  server: 54.36.174.181
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: "\U0001F1E9\U0001F1EA DE 8 SSS"
+  type: ss
+  server: 80.92.204.106
+  port: 9094
+  password: rpgbNnU9rDDU4aWZ
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  type: vmess
+  server: us-fsl.jikuai.xyz
+  port: 8443
+  cipher: auto
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /user
+    headers:
+      host: us-fsl.jikuai.xyz
+- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+  type: vmess
+  server: v15.583182.xyz
+  port: 2053
+  cipher: auto
+  uuid: c5027ed5-33cd-42d5-9894-d5c6160b3987
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: v15.583181.xyz
+- name: "\U0001F1EB\U0001F1F7 FR 11 SSS"
+  type: ss
+  server: 54.36.174.181
+  port: 7001
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+- name: "\U0001F1EB\U0001F1F7 FR 12 SSS"
+  type: ss
+  server: 54.36.174.181
+  port: 8000
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +106,15 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 5 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 6 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 7 SSS"
+  - "\U0001F1E9\U0001F1EA DE 8 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 11 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 12 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +124,14 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 5 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 6 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 7 SSS"
+  - "\U0001F1E9\U0001F1EA DE 8 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 11 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 12 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
