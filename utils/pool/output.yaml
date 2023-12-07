@@ -193,6 +193,39 @@ proxies:
   sni: downloadhk.xn--mes358a9urctx.com
   skip-cert-verify: true
   network: tcp
+- type: vmess
+  name: "\U0001F1EF\U0001F1F5 JP 20 VMS"
+  ws-opts:
+    path: /be28a249
+  server: 52.253.117.95
+  port: 28494
+  uuid: be28a249-d3de-46f8-bb3b-d413d8c2b5ef
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 21 VMS"
+  ws-opts:
+    path: /be28a249
+    headers:
+      host: weeiii.eu.org
+  server: gov.uk
+  port: 443
+  uuid: be28a249-d3de-46f8-bb3b-d413d8c2b5ef
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1EF\U0001F1F5 JP 22 VMS"
+  ws-opts:
+    path: /1d78caec
+  server: 52.253.117.95
+  port: 21551
+  uuid: 1d78caec-1762-4d69-84fe-8ad116d7c10f
+  alterId: '0'
+  cipher: auto
+  network: ws
 proxy-groups:
 - name: automatic
   type: url-test
@@ -216,6 +249,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 17 TJN"
   - "\U0001F1F9\U0001F1FC TW 18 TJN"
   - "\U0001F1ED\U0001F1F0 HK 19 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 20 VMS"
+  - "\U0001F1FA\U0001F1F8 US 21 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 22 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -241,5 +277,8 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 17 TJN"
   - "\U0001F1F9\U0001F1FC TW 18 TJN"
   - "\U0001F1ED\U0001F1F0 HK 19 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 20 VMS"
+  - "\U0001F1FA\U0001F1F8 US 21 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 22 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
