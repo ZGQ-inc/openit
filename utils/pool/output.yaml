@@ -21,13 +21,23 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 4 SSS"
+- name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  type: vmess
+  server: 34.92.50.99
+  port: 7890
+  cipher: auto
+  uuid: 1d62f647-48de-469a-aef3-4b458394177d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 5 SSS"
   type: ss
   server: 35.87.39.181
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 5 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 6 TJN"
   type: trojan
   server: 89.116.180.179
   port: 443
@@ -45,8 +55,9 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 SSS"
-  - "\U0001F1FA\U0001F1F8 US 5 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -56,7 +67,8 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 SSS"
-  - "\U0001F1FA\U0001F1F8 US 5 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
