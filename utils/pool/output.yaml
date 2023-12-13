@@ -229,7 +229,7 @@ proxies:
   sni: alibaba-node.cn
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 27 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 27 VMS"
   type: vmess
   server: ld2.shabijichang.com
   port: 80
@@ -489,6 +489,16 @@ proxies:
   port: 110
   password: asdKkaskJKfnsa
   cipher: aes-256-cfb
+- name: "\U0001F1ED\U0001F1F0 HK 57 VMS"
+  type: vmess
+  server: 34.92.50.99
+  port: 7890
+  cipher: auto
+  uuid: 65cd0ce6-c97f-4311-88a8-832b5c009e47
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: kcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -519,7 +529,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 24 SSS"
   - "\U0001F1E8\U0001F1F3 CN 25 TJN"
   - "\U0001F1E8\U0001F1F3 CN 26 TJN"
-  - "\U0001F1FA\U0001F1F8 US 27 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
   - "\U0001F1EB\U0001F1F7 FR 28 SSS"
   - "\U0001F1E8\U0001F1F3 CN 29 TJN"
   - "\U0001F1FA\U0001F1F8 US 30 TJN"
@@ -549,6 +559,7 @@ proxy-groups:
   - "\U0001F1EB\U0001F1F7 FR 54 SSS"
   - "\U0001F1FA\U0001F1F8 US 55 TJN"
   - "\U0001F1EB\U0001F1F7 FR 56 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 57 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -581,7 +592,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 24 SSS"
   - "\U0001F1E8\U0001F1F3 CN 25 TJN"
   - "\U0001F1E8\U0001F1F3 CN 26 TJN"
-  - "\U0001F1FA\U0001F1F8 US 27 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
   - "\U0001F1EB\U0001F1F7 FR 28 SSS"
   - "\U0001F1E8\U0001F1F3 CN 29 TJN"
   - "\U0001F1FA\U0001F1F8 US 30 TJN"
@@ -611,5 +622,6 @@ proxy-groups:
   - "\U0001F1EB\U0001F1F7 FR 54 SSS"
   - "\U0001F1FA\U0001F1F8 US 55 TJN"
   - "\U0001F1EB\U0001F1F7 FR 56 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 57 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
