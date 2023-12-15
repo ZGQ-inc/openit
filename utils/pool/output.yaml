@@ -21,6 +21,122 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  type: vmess
+  server: yes.cnmjcn.net
+  port: 16648
+  cipher: auto
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+- name: "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  type: vmess
+  server: m.cnmjcn.com
+  port: 16648
+  cipher: auto
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+- name: "\U0001F1EB\U0001F1F7 FR 6 SSS"
+  type: ss
+  server: 51.158.195.96
+  port: 443
+  password: asdKkaskJKfnsa
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 7 SSS"
+  type: ss
+  server: 52.33.95.19
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 8 VMS"
+  type: vmess
+  server: t.cnmjcn.cyou
+  port: 16648
+  cipher: auto
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  type: vmess
+  server: 104.19.154.92
+  port: 2087
+  cipher: auto
+  uuid: 8fada9c0-c348-4465-aade-ff0311454178
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /kqlqqv
+    headers:
+      host: pAnel159.moOkomeILz.homes
+- name: "\U0001F1FA\U0001F1F3 UN 10 TJN"
+  type: trojan
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  port: 8443
+  udp: true
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  sni: ams-trojan-grpc.carfin.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+- name: "\U0001F1FA\U0001F1F8 US 11 SSS"
+  type: ss
+  server: tg_mfbpn_aus2.52vpn.eu.org
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1EB\U0001F1F7 FR 12 SSS"
+  type: ss
+  server: 135.125.172.153
+  port: 443
+  password: asdKkaskJKfnsa
+  cipher: aes-256-cfb
+- name: "\U0001F1EB\U0001F1F7 FR 13 SSS"
+  type: ss
+  server: 51.158.195.96
+  port: 80
+  password: asdKkaskJKfnsa
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 14 TJN"
+  type: trojan
+  server: amini2.ddns.net
+  port: 2096
+  udp: true
+  password: biwe49r2Tv
+  sni: Qoakq.mookomeilz.homes
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /mskqq
+    headers:
+      host: pANeL159.moOkoMEilz.homeshttp/1.1
+- name: "\U0001F1EB\U0001F1F7 FR 15 SSS"
+  type: ss
+  server: 51.158.195.96
+  port: 110
+  password: asdKkaskJKfnsa
+  cipher: aes-256-cfb
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +144,18 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 6 SSS"
+  - "\U0001F1FA\U0001F1F8 US 7 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 12 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 13 SSS"
+  - "\U0001F1FA\U0001F1F8 US 14 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 15 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +165,17 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 6 SSS"
+  - "\U0001F1FA\U0001F1F8 US 7 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 12 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 13 SSS"
+  - "\U0001F1FA\U0001F1F8 US 14 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 15 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
