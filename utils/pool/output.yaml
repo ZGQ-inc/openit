@@ -21,6 +21,75 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F3 UN 4 TJN"
+  type: trojan
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  port: 8443
+  udp: true
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  sni: ams-trojan-grpc.carfin.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+- name: "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  type: vmess
+  server: cm1.awslcn.info
+  port: 25230
+  cipher: auto
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: cm1.awslcn.info
+- name: "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  type: trojan
+  server: other.kunlun-ppg.com
+  port: 10850
+  udp: true
+  password: b6825e95-39b1-4e99-98c2-7b344f0f698a
+  sni: alibaba-node.cn
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 7 SSS"
+  type: ss
+  server: 52.33.95.19
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 8 SSS"
+  type: ss
+  server: 35.90.10.174
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  type: vmess
+  server: cu.awslcn.info
+  port: 25284
+  cipher: auto
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: cu.awslcn.info
+- name: "\U0001F1E8\U0001F1F3 CN 10 TJN"
+  type: trojan
+  server: other.kunlun-ppg.com
+  port: 10845
+  udp: true
+  password: b6825e95-39b1-4e99-98c2-7b344f0f698a
+  sni: alibaba-node.cn
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +97,13 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 4 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  - "\U0001F1FA\U0001F1F8 US 7 SSS"
+  - "\U0001F1FA\U0001F1F8 US 8 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 10 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +113,12 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 4 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 6 TJN"
+  - "\U0001F1FA\U0001F1F8 US 7 SSS"
+  - "\U0001F1FA\U0001F1F8 US 8 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 10 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
