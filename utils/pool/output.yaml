@@ -21,6 +21,56 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  type: ss
+  server: 45.87.153.246
+  port: 6199
+  password: f7EI0dGWQM42T8gwN9CZIj
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1ED\U0001F1F0 HK 5 TJN"
+  type: trojan
+  server: us01.trojanyyds.xyz
+  port: 443
+  udp: true
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  sni: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 6 VMS"
+  type: vmess
+  server: cu.awslcn.info
+  port: 25284
+  cipher: auto
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: cu.awslcn.info
+- name: "\U0001F1EC\U0001F1E7 GB 7 TJN"
+  type: trojan
+  server: 35.178.236.184
+  port: 22222
+  udp: true
+  password: telegram-id-directvpn
+  sni: trj.rollingnext.co.uk
+  skip-cert-verify: false
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 8 SSS"
+  type: ss
+  server: 54.70.3.6
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1F3\U0001F1F1 NL 9 SSS"
+  type: ss
+  server: 45.87.154.143
+  port: 1165
+  password: 0cAOTNuOqZQuK1c9-mCXJQ
+  cipher: chacha20-ietf-poly1305
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +78,12 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 5 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 6 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 7 TJN"
+  - "\U0001F1FA\U0001F1F8 US 8 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 9 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +93,11 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 5 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 6 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 7 TJN"
+  - "\U0001F1FA\U0001F1F8 US 8 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 9 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
