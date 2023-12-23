@@ -21,6 +21,20 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 4 VMS"
+  type: vmess
+  server: usa-lsj-chuzuyong-001.izzydesign.uk
+  port: 57881
+  cipher: auto
+  uuid: 962c8b58-87ed-43bd-be62-c48d9c0d036a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /962c8b58-87ed-43bd-be62-c48d9c0d036a
+    headers:
+      host: usa-lsj-chuzuyong-001.izzydesign.uk
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +42,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 4 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +52,6 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 4 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
