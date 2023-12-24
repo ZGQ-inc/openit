@@ -207,21 +207,7 @@ proxies:
   obfs-param: 5d3ee46961.microsoft.com
   protocol-param: 46961:1210-Tha
   group: "Update-\u4E8C\u7237"
-- name: "\U0001F1E8\U0001F1E6 CA 21 VMS"
-  type: vmess
-  server: usa-lsj-chuzuyong-001.izzydesign.uk
-  port: 57881
-  cipher: auto
-  uuid: 962c8b58-87ed-43bd-be62-c48d9c0d036a
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /962c8b58-87ed-43bd-be62-c48d9c0d036a
-    headers:
-      host: usa-lsj-chuzuyong-001.izzydesign.uk
-- name: "\U0001F1FA\U0001F1F3 UN 22 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 21 VMS"
   type: vmess
   server: freeus.tgyujcchannel.site
   port: 80
@@ -235,7 +221,7 @@ proxies:
     path: /?ed=2048
     headers:
       host: freeus.tgyujcchannel.site
-- name: "\U0001F1EB\U0001F1F7 FR 23 TJN"
+- name: "\U0001F1EB\U0001F1F7 FR 22 TJN"
   type: trojan
   server: 15.236.197.166
   port: 22222
@@ -244,7 +230,7 @@ proxies:
   sni: trj.rollingnext.co.uk
   skip-cert-verify: false
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 24 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 23 VMS"
   type: vmess
   server: us1.awslcn.info
   port: 25256
@@ -258,7 +244,7 @@ proxies:
     path: /
     headers:
       host: us1.awslcn.info
-- name: "\U0001F1E8\U0001F1E6 CA 25 TJN"
+- name: "\U0001F1E8\U0001F1E6 CA 24 TJN"
   type: trojan
   server: 68.233.121.121
   port: 40020
@@ -267,7 +253,7 @@ proxies:
   sni: frontend.kuangbiaoyun.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 26 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 25 VMS"
   type: vmess
   server: us1.awslcn.info
   port: 25239
@@ -281,13 +267,13 @@ proxies:
     path: /
     headers:
       host: us1.awslcn.info
-- name: "\U0001F1FA\U0001F1F8 US 27 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 26 SSS"
   type: ss
   server: 35.87.39.181
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 28 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 27 VMS"
   type: vmess
   server: us2.awslcn.info
   port: 25257
@@ -301,7 +287,7 @@ proxies:
     path: /
     headers:
       host: us2.awslcn.info
-- name: "\U0001F1E8\U0001F1F3 CN 29 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 28 SSR"
   type: ssr
   server: cm01.newcome.xyz
   port: 7701
@@ -312,7 +298,7 @@ proxies:
   obfs-param: 5d3ee46961.microsoft.com
   protocol-param: 46961:1210-Tha
   group: "Update-\u4E8C\u7237"
-- name: "\U0001F1EF\U0001F1F5 JP 30 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 29 TJN"
   type: trojan
   server: ru01.trojanyyds.xyz
   port: 443
@@ -321,7 +307,7 @@ proxies:
   sni: ru01.trojanyyds.xyz
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EC\U0001F1EE GI 31 TJN"
+- name: "\U0001F1EC\U0001F1EE GI 30 TJN"
   type: trojan
   server: gbs.pptv-tv.store
   port: 17728
@@ -329,6 +315,20 @@ proxies:
   password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1E8\U0001F1E6 CA 31 VMS"
+  type: vmess
+  server: usa-lsj-chuzuyong-001.izzydesign.uk
+  port: 57881
+  cipher: auto
+  uuid: 962c8b58-87ed-43bd-be62-c48d9c0d036a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /962c8b58-87ed-43bd-be62-c48d9c0d036a
+    headers:
+      host: usa-lsj-chuzuyong-001.izzydesign.uk
 proxy-groups:
 - name: automatic
   type: url-test
@@ -353,17 +353,17 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 18 VMS"
   - "\U0001F1E8\U0001F1F3 CN 19 VMS"
   - "\U0001F1E8\U0001F1F3 CN 20 SSR"
-  - "\U0001F1E8\U0001F1E6 CA 21 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 22 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 23 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 24 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 25 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 26 VMS"
-  - "\U0001F1FA\U0001F1F8 US 27 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 28 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 29 SSR"
-  - "\U0001F1EF\U0001F1F5 JP 30 TJN"
-  - "\U0001F1EC\U0001F1EE GI 31 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 22 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 23 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 24 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 25 VMS"
+  - "\U0001F1FA\U0001F1F8 US 26 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 27 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 28 SSR"
+  - "\U0001F1EF\U0001F1F5 JP 29 TJN"
+  - "\U0001F1EC\U0001F1EE GI 30 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 31 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -390,16 +390,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 18 VMS"
   - "\U0001F1E8\U0001F1F3 CN 19 VMS"
   - "\U0001F1E8\U0001F1F3 CN 20 SSR"
-  - "\U0001F1E8\U0001F1E6 CA 21 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 22 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 23 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 24 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 25 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 26 VMS"
-  - "\U0001F1FA\U0001F1F8 US 27 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 28 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 29 SSR"
-  - "\U0001F1EF\U0001F1F5 JP 30 TJN"
-  - "\U0001F1EC\U0001F1EE GI 31 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 22 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 23 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 24 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 25 VMS"
+  - "\U0001F1FA\U0001F1F8 US 26 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 27 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 28 SSR"
+  - "\U0001F1EF\U0001F1F5 JP 29 TJN"
+  - "\U0001F1EC\U0001F1EE GI 30 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 31 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
