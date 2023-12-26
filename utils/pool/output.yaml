@@ -21,6 +21,95 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 4 SSS"
+  type: ss
+  server: 38.91.107.37
+  port: 5003
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
+  type: vmess
+  server: 45.58.153.24
+  port: 30000
+  cipher: auto
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1702392255355
+    headers:
+      host: www.77935707.xyz
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  type: vmess
+  server: 45.58.145.200
+  port: 30000
+  cipher: auto
+  uuid: 55545f9e-a561-454a-8dc0-8bc110e6b1c9
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1702301098557
+    headers:
+      host: www.51652109.xyz
+- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+  type: vmess
+  server: 45.58.153.25
+  port: 30000
+  cipher: auto
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1702961716738
+- name: "\U0001F1E9\U0001F1EA DE 8 TJN"
+  type: trojan
+  server: 78.47.217.216
+  port: 1935
+  udp: true
+  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
+  sni: www.casperco.online
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E9\U0001F1EA DE 9 TJN"
+  type: trojan
+  server: www.casperco.online
+  port: 1935
+  udp: true
+  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+  type: vmess
+  server: 104.238.182.29
+  port: 50706
+  cipher: auto
+  uuid: 74cc82ff-e398-4a0e-df94-e5e9d66abbb3
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+  type: vmess
+  server: 18.216.249.151
+  port: 46403
+  cipher: auto
+  uuid: 28dc6b61-09d8-4c19-b655-233cfb535567
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 12 SSS"
+  type: ss
+  server: 38.75.136.49
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +117,15 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 SSS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1E9\U0001F1EA DE 8 TJN"
+  - "\U0001F1E9\U0001F1EA DE 9 TJN"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F8 US 12 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +135,14 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 SSS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1E9\U0001F1EA DE 8 TJN"
+  - "\U0001F1E9\U0001F1EA DE 9 TJN"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F8 US 12 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
