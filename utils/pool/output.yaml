@@ -21,7 +21,13 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 4 SSS"
+  type: ss
+  server: 34.92.50.99
+  port: 52350
+  password: 233blog.com
+  cipher: aes-256-gcm
+- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
   type: vmess
   server: 34.92.50.99
   port: 31535
@@ -31,22 +37,16 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: kcp
-- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 6 VMS"
   type: vmess
   server: 34.92.50.99
-  port: 26389
+  port: 64563
   cipher: auto
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
+  uuid: 0eda82b0-d613-49e2-ac22-8ceafb0ec914
   alterId: 0
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 6 SSS"
-  type: ss
-  server: 34.92.50.99
-  port: 52350
-  password: 233blog.com
-  cipher: aes-256-gcm
 - name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
   type: vmess
   server: 162.159.142.202
@@ -257,7 +257,7 @@ proxies:
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F3 UN 24 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 24 VMS"
   type: vmess
   server: a8.bcbot.in
   port: 8880
@@ -402,7 +402,7 @@ proxies:
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 37 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 37 VMS"
   type: vmess
   server: a6.bcbot.in
   port: 8880
@@ -419,9 +419,9 @@ proxies:
 - name: "\U0001F1ED\U0001F1F0 HK 38 VMS"
   type: vmess
   server: 34.92.50.99
-  port: 64563
+  port: 26389
   cipher: auto
-  uuid: 0eda82b0-d613-49e2-ac22-8ceafb0ec914
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
   alterId: 0
   tls: false
   skip-cert-verify: true
@@ -433,9 +433,9 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 4 SSS"
   - "\U0001F1ED\U0001F1F0 HK 5 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 6 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
   - "\U0001F1E8\U0001F1F3 CN 8 SSS"
   - "\U0001F1FA\U0001F1F3 UN 9 VMS"
@@ -453,7 +453,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1EA\U0001F1F8 ES 23 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
   - "\U0001F1E7\U0001F1E6 BA 25 SSS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1F8\U0001F1E6 SA 27 SSS"
@@ -466,7 +466,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1F8\U0001F1EA SE 35 SSS"
   - "\U0001F1EC\U0001F1E7 GB 36 SSS"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
   - "\U0001F1ED\U0001F1F0 HK 38 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -477,9 +477,9 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 4 SSS"
   - "\U0001F1ED\U0001F1F0 HK 5 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 6 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
   - "\U0001F1E8\U0001F1F3 CN 8 SSS"
   - "\U0001F1FA\U0001F1F3 UN 9 VMS"
@@ -497,7 +497,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1EA\U0001F1F8 ES 23 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
   - "\U0001F1E7\U0001F1E6 BA 25 SSS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1F8\U0001F1E6 SA 27 SSS"
@@ -510,7 +510,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1F8\U0001F1EA SE 35 SSS"
   - "\U0001F1EC\U0001F1E7 GB 36 SSS"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
   - "\U0001F1ED\U0001F1F0 HK 38 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
