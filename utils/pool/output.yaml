@@ -24,22 +24,6 @@ proxies:
 - name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
   type: vmess
   server: 34.92.50.99
-  port: 31535
-  cipher: auto
-  uuid: f23d62d4-f8da-4347-8cee-762804ecf677
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: kcp
-- name: "\U0001F1ED\U0001F1F0 HK 5 SSS"
-  type: ss
-  server: 34.92.50.99
-  port: 52350
-  password: 233blog.com
-  cipher: aes-256-gcm
-- name: "\U0001F1ED\U0001F1F0 HK 6 VMS"
-  type: vmess
-  server: 34.92.50.99
   port: 26389
   cipher: auto
   uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
@@ -47,6 +31,22 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  type: vmess
+  server: 34.92.50.99
+  port: 31535
+  cipher: auto
+  uuid: f23d62d4-f8da-4347-8cee-762804ecf677
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: kcp
+- name: "\U0001F1ED\U0001F1F0 HK 6 SSS"
+  type: ss
+  server: 34.92.50.99
+  port: 52350
+  password: 233blog.com
+  cipher: aes-256-gcm
 - name: "\U0001F1ED\U0001F1F0 HK 7 VMS"
   type: vmess
   server: 34.92.50.99
@@ -372,7 +372,7 @@ proxies:
     path: /
     headers:
       host: mgtow_cdn.yunjisuan.cf
-- name: "\U0001F1FA\U0001F1F3 UN 34 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 34 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -412,7 +412,7 @@ proxies:
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 38 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 38 VMS"
   type: vmess
   server: a6.bcbot.in
   port: 8880
@@ -434,8 +434,8 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1ED\U0001F1F0 HK 4 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 5 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 6 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 6 SSS"
   - "\U0001F1ED\U0001F1F0 HK 7 VMS"
   - "\U0001F1FA\U0001F1F3 UN 8 VMS"
   - "\U0001F1E8\U0001F1F3 CN 9 SSS"
@@ -463,11 +463,11 @@ proxy-groups:
   - "\U0001F1F7\U0001F1FA RU 31 VMS"
   - "\U0001F1FA\U0001F1F3 UN 32 VMS"
   - "\U0001F1FA\U0001F1F3 UN 33 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1FA\U0001F1F8 US 35 VMS"
   - "\U0001F1F8\U0001F1EA SE 36 SSS"
   - "\U0001F1EC\U0001F1E7 GB 37 SSS"
-  - "\U0001F1FA\U0001F1F8 US 38 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 38 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -478,8 +478,8 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1ED\U0001F1F0 HK 4 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 5 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 6 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 6 SSS"
   - "\U0001F1ED\U0001F1F0 HK 7 VMS"
   - "\U0001F1FA\U0001F1F3 UN 8 VMS"
   - "\U0001F1E8\U0001F1F3 CN 9 SSS"
@@ -507,10 +507,10 @@ proxy-groups:
   - "\U0001F1F7\U0001F1FA RU 31 VMS"
   - "\U0001F1FA\U0001F1F3 UN 32 VMS"
   - "\U0001F1FA\U0001F1F3 UN 33 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1FA\U0001F1F8 US 35 VMS"
   - "\U0001F1F8\U0001F1EA SE 36 SSS"
   - "\U0001F1EC\U0001F1E7 GB 37 SSS"
-  - "\U0001F1FA\U0001F1F8 US 38 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 38 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
