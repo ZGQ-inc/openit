@@ -21,6 +21,108 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  type: vmess
+  server: 104.17.184.241
+  port: 80
+  cipher: auto
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: mg_cdn.yunjisuan.cf
+- name: "\U0001F1EE\U0001F1F7 IR 5 VMS"
+  type: vmess
+  server: 79.143.84.117
+  port: 25477
+  cipher: auto
+  uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F1\U0001F1FE LY 6 VMS"
+  type: vmess
+  server: 197.215.140.234
+  port: 80
+  cipher: auto
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      host: softiri.serveirc.com
+- name: "\U0001F1EE\U0001F1F6 IQ 7 VMS"
+  type: vmess
+  server: 130.193.166.2
+  port: 443
+  cipher: auto
+  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      host: soft8989.redirectme.net
+- name: "\U0001F1E9\U0001F1EA DE 8 TJN"
+  type: trojan
+  server: 54.38.156.210
+  port: 443
+  udp: true
+  password: 8464b1a0-a993-11ee-8944-1239d0255272
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1E6 CA 9 VMS"
+  type: vmess
+  server: 142.171.237.214
+  port: 443
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/221312281009
+    headers:
+      host: www.23168499.xyz
+- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+  type: vmess
+  server: a3.bcbot.in
+  port: 8880
+  cipher: auto
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: a3.bcbot.in
+- name: "\U0001F1FA\U0001F1F3 UN 11 VMS"
+  type: vmess
+  server: glasco.fx-trader.shop
+  port: 80
+  cipher: auto
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: v3ra3do.wakeuptimerap.shop
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +130,14 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 5 VMS"
+  - "\U0001F1F1\U0001F1FE LY 6 VMS"
+  - "\U0001F1EE\U0001F1F6 IQ 7 VMS"
+  - "\U0001F1E9\U0001F1EA DE 8 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 11 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +147,13 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1EE\U0001F1F7 IR 5 VMS"
+  - "\U0001F1F1\U0001F1FE LY 6 VMS"
+  - "\U0001F1EE\U0001F1F6 IQ 7 VMS"
+  - "\U0001F1E9\U0001F1EA DE 8 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 9 VMS"
+  - "\U0001F1FA\U0001F1F8 US 10 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 11 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
