@@ -23,43 +23,6 @@ proxies:
   udp: true
 - name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
   type: vmess
-  server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com
-  port: 443
-  cipher: auto
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /glweidf.sbs/linkws
-    headers:
-      host: mikasa.erenyeager.cloudns.biz
-- name: "\U0001F1EC\U0001F1EE GI 5 VMS"
-  type: vmess
-  server: 95.164.69.27
-  port: 80
-  cipher: auto
-  uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      host: internet.life.com.by
-- name: "\U0001F1F0\U0001F1F7 KR 6 TJN"
-  type: trojan
-  server: 103.214.68.57
-  port: 10003
-  udp: true
-  password: 6x8HcghsjS
-  sni: yes998.chickenkiller.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  type: vmess
   server: cfcdn1.sanfencdn9.com
   port: 2082
   cipher: auto
@@ -72,7 +35,7 @@ proxies:
     path: /video/CuTy87zAzV/
     headers:
       host: us4Bb5oSgJA.fzbqfrse.xyz
-- name: "\U0001F1EC\U0001F1E7 GB 8 VMS"
+- name: "\U0001F1EC\U0001F1E7 GB 5 VMS"
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -84,7 +47,7 @@ proxies:
   network: ws
   ws-opts:
     path: linkvws
-- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
   type: vmess
   server: glaSco.fx-trAder.shop
   port: 80
@@ -98,6 +61,43 @@ proxies:
     path: /
     headers:
       host: vvv2vayo2.everythingisreve.shop
+- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  type: vmess
+  server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com
+  port: 443
+  cipher: auto
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /glweidf.sbs/linkws
+    headers:
+      host: mikasa.erenyeager.cloudns.biz
+- name: "\U0001F1EC\U0001F1EE GI 8 VMS"
+  type: vmess
+  server: 95.164.69.27
+  port: 80
+  cipher: auto
+  uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      host: internet.life.com.by
+- name: "\U0001F1F0\U0001F1F7 KR 9 TJN"
+  type: trojan
+  server: 103.214.68.57
+  port: 10003
+  udp: true
+  password: 6x8HcghsjS
+  sni: yes998.chickenkiller.com
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -106,11 +106,11 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1FA\U0001F1F3 UN 4 VMS"
-  - "\U0001F1EC\U0001F1EE GI 5 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 6 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 8 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1EC\U0001F1EE GI 8 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 9 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -121,10 +121,10 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1EF\U0001F1F5 JP 3 TJN"
   - "\U0001F1FA\U0001F1F3 UN 4 VMS"
-  - "\U0001F1EC\U0001F1EE GI 5 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 6 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 8 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1EC\U0001F1EE GI 8 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 9 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
