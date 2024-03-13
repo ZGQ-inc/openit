@@ -21,6 +21,86 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  type: vmess
+  server: 50003.baidu-cdn.top
+  port: 50003
+  cipher: auto
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1E6 CA 5 VMS"
+  type: vmess
+  server: 23.227.38.23
+  port: 8080
+  cipher: auto
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  type: vmess
+  server: russia.com
+  port: 8880
+  cipher: auto
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v03.ssrsub.com
+- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  type: vmess
+  server: simon.24wk.icu
+  port: 443
+  cipher: none
+  uuid: ac07c39f-db03-40c8-81e8-80318892a0a1
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /argox-vm?ed=2048
+    headers:
+      host: uk.yangjz2023.cloudns.biz
+- name: "\U0001F1E6\U0001F1EA AE 8 VMS"
+  type: vmess
+  server: 94.140.0.110
+  port: 8880
+  cipher: auto
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: food.zhaal.ir
+- name: "\U0001F1ED\U0001F1F0 HK 9 VMS"
+  type: vmess
+  server: 20.255.223.60
+  port: 36801
+  cipher: auto
+  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      host: annie50.ceoiii.com
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +108,12 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  - "\U0001F1E6\U0001F1EA AE 8 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +123,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 VMS"
+  - "\U0001F1E6\U0001F1EA AE 8 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
