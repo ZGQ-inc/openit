@@ -313,6 +313,68 @@ proxies:
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F3 UN 48 VMS"
+  type: vmess
+  server: 104.21.235.6
+  port: 80
+  cipher: auto
+  uuid: f4c98b50-e614-11ee-b430-205c6d5f5d78
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      host: m4p9q.cnbete.life
+- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  type: vmess
+  server: 104.21.235.46
+  port: 80
+  cipher: auto
+  uuid: f4c98b50-e614-11ee-b430-205c6d5f5d78
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      host: m4p9q.cnbete.life
+- name: "\U0001F1FA\U0001F1F3 UN 50 VMS"
+  type: vmess
+  server: 104.21.238.2
+  port: 80
+  cipher: auto
+  uuid: c6b76370-e614-11ee-b531-205c6d5f5d78
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      host: PVR7r.cnbete.life
+- name: "\U0001F1FA\U0001F1F8 US 51 TJN"
+  type: trojan
+  server: 38.59.245.114
+  port: 15981
+  udp: true
+  password: onBbMV6Bt9
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 52 SSS"
+  type: ss
+  server: 34.219.76.253
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 53 SSS"
+  type: ss
+  server: 34.222.20.208
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
 proxy-groups:
 - name: automatic
   type: url-test
@@ -364,6 +426,12 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 45 SSS"
   - "\U0001F1FA\U0001F1F8 US 46 SSS"
   - "\U0001F1FA\U0001F1F8 US 47 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 48 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 50 VMS"
+  - "\U0001F1FA\U0001F1F8 US 51 TJN"
+  - "\U0001F1FA\U0001F1F8 US 52 SSS"
+  - "\U0001F1FA\U0001F1F8 US 53 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -417,5 +485,11 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 45 SSS"
   - "\U0001F1FA\U0001F1F8 US 46 SSS"
   - "\U0001F1FA\U0001F1F8 US 47 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 48 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 50 VMS"
+  - "\U0001F1FA\U0001F1F8 US 51 TJN"
+  - "\U0001F1FA\U0001F1F8 US 52 SSS"
+  - "\U0001F1FA\U0001F1F8 US 53 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
