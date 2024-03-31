@@ -381,6 +381,20 @@ proxies:
   port: 15006
   password: f9nawu1Umf2xWKGVsDuTu
   cipher: aes-128-gcm
+- name: "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  type: vmess
+  server: www.wto.org
+  port: 443
+  cipher: auto
+  uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm
+    headers:
+      host: copies-bandwidth-harold-tops.trycloudflare.com
 proxy-groups:
 - name: automatic
   type: url-test
@@ -423,6 +437,7 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR 36 SSS"
   - "\U0001F1F0\U0001F1F7 KR 37 SSS"
   - "\U0001F1E8\U0001F1F3 CN 38 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -467,5 +482,6 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR 36 SSS"
   - "\U0001F1F0\U0001F1F7 KR 37 SSS"
   - "\U0001F1E8\U0001F1F3 CN 38 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
