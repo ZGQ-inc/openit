@@ -21,6 +21,126 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1F8\U0001F1EC SG 4 TJN"
+  type: trojan
+  server: 110.239.96.111
+  port: 10000
+  udp: true
+  password: 9d1bb718-f429-40eb-9373-3e6d588ff78c
+  sni: www.baidu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 5 TJN"
+  type: trojan
+  server: 110.239.96.111
+  port: 9011
+  udp: true
+  password: 9d1bb718-f429-40eb-9373-3e6d588ff78c
+  sni: www.baidu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F0\U0001F1F7 KR 6 SSS"
+  type: ss
+  server: p078.panda001.net
+  port: 5304
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 7 SSS"
+  type: ss
+  server: p221.panda001.net
+  port: 49032
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 8 SSS"
+  type: ss
+  server: p222.panda001.net
+  port: 51472
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 9 SSS"
+  type: ss
+  server: p225.panda004.net
+  port: 4005
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 10 SSS"
+  type: ss
+  server: p226.panda004.net
+  port: 58449
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 11 SSS"
+  type: ss
+  server: p228.panda004.net
+  port: 57729
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 12 SSS"
+  type: ss
+  server: p229.panda004.net
+  port: 10218
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 13 SSS"
+  type: ss
+  server: p230.panda004.net
+  port: 42978
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 14 SSS"
+  type: ss
+  server: p231.panda004.net
+  port: 43926
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 15 SSS"
+  type: ss
+  server: p232.panda004.net
+  port: 51472
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 16 SSS"
+  type: ss
+  server: p233.panda004.net
+  port: 50942
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 17 SSS"
+  type: ss
+  server: p234.panda004.net
+  port: 58449
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 18 SSS"
+  type: ss
+  server: p236.panda004.net
+  port: 42839
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 19 SSS"
+  type: ss
+  server: p238.panda004.net
+  port: 57743
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 20 SSS"
+  type: ss
+  server: p220.panda001.net
+  port: 42185
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1F0\U0001F1F7 KR 21 SSS"
+  type: ss
+  server: p227.panda004.net
+  port: 49032
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 22 SSS"
+  type: ss
+  server: 211.99.102.183
+  port: 15006
+  password: f9nawu1Umf2xWKGVsDuTu
+  cipher: aes-128-gcm
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +148,25 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1F8\U0001F1EC SG 4 TJN"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 6 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 7 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 8 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 9 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 10 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 11 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 12 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 13 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 15 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 16 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 17 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 18 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 19 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 20 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 21 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 22 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +176,24 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1F8\U0001F1EC SG 4 TJN"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 6 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 7 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 8 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 9 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 10 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 11 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 12 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 13 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 15 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 16 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 17 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 18 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 19 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 20 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 21 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 22 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
