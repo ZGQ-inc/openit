@@ -21,6 +21,110 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1F1\U0001F1FA LU 4 VMS"
+  type: vmess
+  server: 91.199.82.78
+  port: 8080
+  cipher: auto
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 5 SSS"
+  type: ss
+  server: 34.216.106.166
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  type: vmess
+  server: 38.147.160.101
+  port: 41384
+  cipher: auto
+  uuid: ab6643ec-5172-4a7b-b0e0-f2767bae83aa
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+  type: vmess
+  server: 38.147.160.101
+  port: 28241
+  cipher: auto
+  uuid: adf0d7fc-6c13-4cff-e02a-e130cf562c6f
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  type: vmess
+  server: hms04.xmivideo.cfd
+  port: 443
+  cipher: auto
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      host: xmivideo.cfd
+- name: "\U0001F1FA\U0001F1F8 US 9 VMS"
+  type: vmess
+  server: s1c.v2.v001sss.xyz
+  port: 2082
+  cipher: auto
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: s1c.v2.v001sss.xyz
+- name: "\U0001F1E8\U0001F1E6 CA 10 TJN"
+  type: trojan
+  server: 23.227.38.11
+  port: 443
+  udp: true
+  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+  sni: syndication-statutes-wanted-logo.trycloudflare.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /argox-tr
+- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+  type: vmess
+  server: russia.com
+  port: 80
+  cipher: auto
+  uuid: bd8c41a8-7598-4c28-9965-522545e14892
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v03.ssrsub.com
+- name: "\U0001F1FA\U0001F1F8 US 12 TJN"
+  type: trojan
+  server: 95.164.33.62
+  port: 443
+  udp: true
+  password: 0b1371aa-649d-41dc-9126-338c87936500
+  sni: sourceforge.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      host: se1.trojanvpn.de
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +132,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1F1\U0001F1FA LU 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F8 US 12 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +150,14 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1F1\U0001F1FA LU 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F8 US 12 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
