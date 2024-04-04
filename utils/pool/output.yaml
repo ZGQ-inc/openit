@@ -21,25 +21,21 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
-  type: vmess
-  server: 144.202.94.14
-  port: 33282
-  cipher: auto
-  uuid: 74924bb6-8fc6-498c-9676-5f4914d63df5
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F9\U0001F1F7 TR 5 SSS"
+- name: "\U0001F1F9\U0001F1F7 TR 4 SSS"
   type: ss
   server: 45.89.52.66
   port: 9030
   password: GeregetR8cvQHzYr
   cipher: aes-256-cfb
-- name: "\U0001F1E6\U0001F1EB AF 6 SSS"
+- name: "\U0001F1E6\U0001F1EB AF 5 SSS"
   type: ss
   server: 121.127.46.147
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+- name: "\U0001F1F9\U0001F1F7 TR 6 SSS"
+  type: ss
+  server: 185.123.101.241
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
@@ -49,36 +45,40 @@ proxies:
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1F9\U0001F1F7 TR 8 SSS"
-  type: ss
-  server: 185.123.101.241
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  cipher: aes-256-cfb
-- name: "\U0001F1F8\U0001F1E6 SA 9 SSS"
+- name: "\U0001F1F8\U0001F1E6 SA 8 SSS"
   type: ss
   server: 217.182.198.219
   port: 5003
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
-- name: "\U0001F1EC\U0001F1E7 GB 10 SSS"
+- name: "\U0001F1EC\U0001F1E7 GB 9 SSS"
   type: ss
   server: 77.72.5.150
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1E7\U0001F1E6 BA 11 SSS"
+- name: "\U0001F1E7\U0001F1E6 BA 10 SSS"
   type: ss
   server: 185.164.35.9
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1EE\U0001F1F2 IM 12 SSS"
+- name: "\U0001F1EE\U0001F1F2 IM 11 SSS"
   type: ss
   server: 37.235.55.42
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 12 VMS"
+  type: vmess
+  server: 144.202.94.14
+  port: 33282
+  cipher: auto
+  uuid: 74924bb6-8fc6-498c-9676-5f4914d63df5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -86,15 +86,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1F9\U0001F1F7 TR 5 SSS"
-  - "\U0001F1E6\U0001F1EB AF 6 SSS"
+  - "\U0001F1F9\U0001F1F7 TR 4 SSS"
+  - "\U0001F1E6\U0001F1EB AF 5 SSS"
+  - "\U0001F1F9\U0001F1F7 TR 6 SSS"
   - "\U0001F1F9\U0001F1F7 TR 7 SSS"
-  - "\U0001F1F9\U0001F1F7 TR 8 SSS"
-  - "\U0001F1F8\U0001F1E6 SA 9 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 10 SSS"
-  - "\U0001F1E7\U0001F1E6 BA 11 SSS"
-  - "\U0001F1EE\U0001F1F2 IM 12 SSS"
+  - "\U0001F1F8\U0001F1E6 SA 8 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 9 SSS"
+  - "\U0001F1E7\U0001F1E6 BA 10 SSS"
+  - "\U0001F1EE\U0001F1F2 IM 11 SSS"
+  - "\U0001F1FA\U0001F1F8 US 12 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -104,14 +104,14 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 VMS"
-  - "\U0001F1F9\U0001F1F7 TR 5 SSS"
-  - "\U0001F1E6\U0001F1EB AF 6 SSS"
+  - "\U0001F1F9\U0001F1F7 TR 4 SSS"
+  - "\U0001F1E6\U0001F1EB AF 5 SSS"
+  - "\U0001F1F9\U0001F1F7 TR 6 SSS"
   - "\U0001F1F9\U0001F1F7 TR 7 SSS"
-  - "\U0001F1F9\U0001F1F7 TR 8 SSS"
-  - "\U0001F1F8\U0001F1E6 SA 9 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 10 SSS"
-  - "\U0001F1E7\U0001F1E6 BA 11 SSS"
-  - "\U0001F1EE\U0001F1F2 IM 12 SSS"
+  - "\U0001F1F8\U0001F1E6 SA 8 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 9 SSS"
+  - "\U0001F1E7\U0001F1E6 BA 10 SSS"
+  - "\U0001F1EE\U0001F1F2 IM 11 SSS"
+  - "\U0001F1FA\U0001F1F8 US 12 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
