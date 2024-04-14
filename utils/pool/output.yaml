@@ -21,6 +21,114 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  type: vmess
+  server: 112.16.228.112
+  port: 41999
+  cipher: auto
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 5 TJN"
+  type: trojan
+  server: 23.142.200.175
+  port: 443
+  udp: true
+  password: 27876_t7d7f4e3f
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E6\U0001F1EA AE 6 VMS"
+  type: vmess
+  server: 94.140.0.110
+  port: 8880
+  cipher: auto
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: food.zhaal.ir
+- name: "\U0001F1FA\U0001F1F8 US 7 VMS"
+  type: vmess
+  server: tu.mahilu.site
+  port: 2095
+  cipher: auto
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: tu.mahilu.site
+- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  type: vmess
+  server: mizban.arzonhost.ir
+  port: 2086
+  cipher: auto
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: mizban.arzonhost.ir
+- name: "\U0001F1FA\U0001F1F8 US 9 TJN"
+  type: trojan
+  server: 172.67.204.84
+  port: 443
+  udp: true
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  sni: cdn-21.gsmxreality.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 443trojan
+- name: "\U0001F1EB\U0001F1EE FI 10 SSS"
+  type: ss
+  server: 95.217.181.48
+  port: 443
+  password: Telegram-AlfredConfig-13
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+  type: vmess
+  server: cold-dawn-9246.fly.dev
+  port: 443
+  cipher: auto
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- name: "\U0001F1FA\U0001F1F8 US 12 TJN"
+  type: trojan
+  server: us03.421421.xyz
+  port: 20230
+  udp: true
+  password: 2e660d96-f2d2-43c0-aa62-bf92edbac0cf
+  sni: us03.421421.xyz
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 13 VMS"
+  type: vmess
+  server: 7569erzy.of08zo0-et55lpt-uk01.my777999.top
+  port: 41999
+  cipher: auto
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +136,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 TJN"
+  - "\U0001F1E6\U0001F1EA AE 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 TJN"
+  - "\U0001F1EB\U0001F1EE FI 10 SSS"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F8 US 12 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 13 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +155,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 TJN"
+  - "\U0001F1E6\U0001F1EA AE 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 TJN"
+  - "\U0001F1EB\U0001F1EE FI 10 SSS"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F8 US 12 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 13 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
