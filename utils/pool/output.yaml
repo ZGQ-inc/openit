@@ -21,6 +21,35 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  type: vmess
+  server: dntls01.4ghatde.com
+  port: 443
+  cipher: auto
+  uuid: 37f45886-18bd-4dcf-8166-3a513335eead
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: m.appsflyer.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: dntls01.4ghatde.com
+    grpc-mode: gun
+- name: "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  type: vmess
+  server: dn1.4ghatde.com
+  port: 80
+  cipher: auto
+  uuid: 37f45886-18bd-4dcf-8166-3a513335eead
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /4ghatde.com
+    headers:
+      host: m.appsflyer.com
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +57,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +68,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
