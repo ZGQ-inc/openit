@@ -23,6 +23,16 @@ proxies:
   udp: true
 - name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
   type: vmess
+  server: 2400:c620:11::aa84:42bb
+  port: 6666
+  cipher: auto
+  uuid: fc604d53-8bc0-4630-a468-27dca89b51f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  type: vmess
   server: dntls01.4ghatde.com
   port: 443
   cipher: auto
@@ -35,7 +45,7 @@ proxies:
   grpc-opts:
     grpc-service-name: dntls01.4ghatde.com
     grpc-mode: gun
-- name: "\U0001F1FA\U0001F1F3 UN 5 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
   type: vmess
   server: dn1.4ghatde.com
   port: 80
@@ -59,6 +69,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
   - "\U0001F1FA\U0001F1F3 UN 4 VMS"
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -70,5 +81,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
   - "\U0001F1FA\U0001F1F3 UN 4 VMS"
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
