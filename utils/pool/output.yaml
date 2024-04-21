@@ -31,67 +31,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
-  type: vmess
-  server: 47.243.162.49
-  port: 80
-  cipher: auto
-  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: "/TG@dns68\u516C\u76CA\u8282\u70B9"
-    headers:
-      host: mix.tgdns68.vps666.onflashdrive.app
-- name: "\U0001F1ED\U0001F1F0 HK 6 VMS"
-  type: vmess
-  server: 8.210.9.129
-  port: 80
-  cipher: auto
-  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: "/TG@dns68\u516C\u76CA\u8282\u70B9"
-    headers:
-      host: mix.tgdns68.vps666.onflashdrive.app
-- name: "\U0001F1ED\U0001F1F0 HK 7 VMS"
-  type: vmess
-  server: 8.217.85.14
-  port: 80
-  cipher: auto
-  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: "/TG@dns68\u514D\u8D39\u8282\u70B9"
-    headers:
-      host: tg.dns68.9669.link
-- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
-  type: vmess
-  server: 162.159.58.74
-  port: 80
-  cipher: auto
-  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: "/TG@dns68\u514D\u8D39\u8282\u70B9"
-    headers:
-      host: tg.dns68.9669.link
-- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 5 VMS"
   type: vmess
   server: dntls01.4ghatde.com
   port: 443
@@ -105,7 +45,7 @@ proxies:
   grpc-opts:
     grpc-service-name: dntls01.4ghatde.com
     grpc-mode: gun
-- name: "\U0001F1FA\U0001F1F3 UN 10 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
   type: vmess
   server: dn1.4ghatde.com
   port: 80
@@ -120,6 +60,66 @@ proxies:
     path: /4ghatde.com
     headers:
       host: m.appsflyer.com
+- name: "\U0001F1ED\U0001F1F0 HK 7 VMS"
+  type: vmess
+  server: 47.243.162.49
+  port: 80
+  cipher: auto
+  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: "/TG@dns68\u516C\u76CA\u8282\u70B9"
+    headers:
+      host: mix.tgdns68.vps666.onflashdrive.app
+- name: "\U0001F1ED\U0001F1F0 HK 8 VMS"
+  type: vmess
+  server: 8.210.9.129
+  port: 80
+  cipher: auto
+  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: "/TG@dns68\u516C\u76CA\u8282\u70B9"
+    headers:
+      host: mix.tgdns68.vps666.onflashdrive.app
+- name: "\U0001F1ED\U0001F1F0 HK 9 VMS"
+  type: vmess
+  server: 8.217.85.14
+  port: 80
+  cipher: auto
+  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: "/TG@dns68\u514D\u8D39\u8282\u70B9"
+    headers:
+      host: tg.dns68.9669.link
+- name: "\U0001F1FA\U0001F1F3 UN 10 VMS"
+  type: vmess
+  server: 162.159.58.74
+  port: 80
+  cipher: auto
+  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: "/TG@dns68\u514D\u8D39\u8282\u70B9"
+    headers:
+      host: tg.dns68.9669.link
 proxy-groups:
 - name: automatic
   type: url-test
@@ -128,11 +128,11 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
   - "\U0001F1FA\U0001F1F3 UN 4 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1ED\U0001F1F0 HK 7 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 8 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
   - "\U0001F1FA\U0001F1F3 UN 10 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -144,11 +144,11 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
   - "\U0001F1FA\U0001F1F3 UN 4 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1ED\U0001F1F0 HK 7 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 8 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
   - "\U0001F1FA\U0001F1F3 UN 10 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
