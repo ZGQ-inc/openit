@@ -21,6 +21,19 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 4 VMS"
+  type: vmess
+  server: 188.114.96.15
+  port: 443
+  cipher: auto
+  uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: /
+    grpc-mode: gun
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +41,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 4 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +51,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 4 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
