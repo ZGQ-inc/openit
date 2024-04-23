@@ -21,12 +21,6 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 4 SSS"
-  type: ss
-  server: 2400:c620:11::aa84:42bb
-  port: 65432
-  password: 3ffd1e90
-  cipher: aes-256-gcm
 proxy-groups:
 - name: automatic
   type: url-test
@@ -34,7 +28,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 4 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -44,6 +37,5 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 4 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
