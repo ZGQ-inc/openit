@@ -21,6 +21,116 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  type: vmess
+  server: cfcdn1.sanfencdn9.com
+  port: 2052
+  cipher: auto
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: helanv6cf.inekokkk.top
+- name: "\U0001F1FA\U0001F1F3 UN 5 SSS"
+  type: ss
+  server: 23.154.136.137
+  port: 5498
+  password: lGqs95QkFHo2NV
+  cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+  type: vmess
+  server: fcdn.flha.ru
+  port: 2095
+  cipher: auto
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: fcdn.flha.ru
+- name: "\U0001F1FA\U0001F1F8 US 7 SSS"
+  type: ss
+  server: 38.86.135.117
+  port: 8118
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  type: vmess
+  server: 104.19.250.15
+  port: 2052
+  cipher: auto
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: helanv6cf.inekokkk.top
+- name: "\U0001F1FA\U0001F1F3 UN 9 SSS"
+  type: ss
+  server: 23.154.136.35
+  port: 7001
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+- name: "\U0001F1FA\U0001F1F8 US 10 TJN"
+  type: trojan
+  server: 38.180.127.194
+  port: 443
+  udp: true
+  password: BZjkHMao
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+  type: vmess
+  server: 172.67.214.33
+  port: 2095
+  cipher: auto
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: fcdn.flha.ru
+- name: "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  type: vmess
+  server: 104.18.19.191
+  port: 2052
+  cipher: auto
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: helanv6cf.inekokkk.top
+- name: "\U0001F1FA\U0001F1F3 UN 13 VMS"
+  type: vmess
+  server: 104.21.23.231
+  port: 2095
+  cipher: auto
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: fcdn.flha.ru
 proxy-groups:
 - name: automatic
   type: url-test
@@ -28,6 +138,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 SSS"
+  - "\U0001F1FA\U0001F1F8 US 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -37,5 +157,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 SSS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 SSS"
+  - "\U0001F1FA\U0001F1F8 US 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
